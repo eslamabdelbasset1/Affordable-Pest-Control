@@ -1,0 +1,146 @@
+/*---------------Page mapping -------------------*/
+/*-------------------- Start Staff Location --------------*/
+
+.active{
+    color: #69A200;
+}
+.page-aside-left
+ {
+    transition: margin-left 300ms;
+}
+.page-aside-left .nav-mapping,
+ .nav-mapping{
+    width: 110%;
+    height: 100vh;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.0889833);
+    z-index: 100;
+    transition: width 300ms;
+    padding: 0.5rem;
+}
+
+.page-aside-left.nav-mapping .search-box input,
+ .nav-mapping .search-box input
+{
+    position: absolute;
+    top: 1px;
+    left: -40px;
+    width: 210px;
+    border: none;
+    height: 40px;
+    padding-left: 30px;
+    letter-spacing: 0;
+    background: #F9F9F9;
+    border-radius: 7px;
+}
+.page-aside-left.nav-mapping .notification-area,
+ .nav-mapping .notification-area
+{
+    position: absolute;
+    top: 8px;
+    left: 90%;
+}
+.page-aside-left.nav-mapping .user-wrapper span.notification-area::after,
+ .nav-mapping .user-wrapper span.notification-area::after {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    right: 0;
+    top: 3px;
+}
+.page-aside-left.nav-mapping .search-box form i,
+ .nav-mapping .search-box form i
+{
+    position: absolute;
+    right: 18px;
+    top: 14px;
+}
+.page-aside-leftmain.body-map,
+ main.body-map{
+    margin-top: 0;
+    padding: 0;
+    min-height: calc(100vh - 90px);
+
+}
+.page-aside-leftmain.body-map #map,
+ main.body-map #map {
+    margin: -3% 0 0 0;
+    padding: 0;
+    min-height: calc(60vh - 90px);
+}
+.page-aside-lefttable
+ table
+{
+    background: #FFFFFF;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.087);
+    border-radius: 15px;
+}
+.page-aside-lefttable th,
+ table th{
+
+    font-size: 13px;
+    color: #868B8F;
+}
+
+.page-aside-lefttable th.active,
+ table th.active{
+    background: #69A200;
+    color: #fff;
+}
+.page-aside-lefttable td{font-size: 12px;}
+ table td{font-size: 12px;}
+.card-body{
+    padding: 0;
+}
+
+/*------------------------------ -------------*/
+
+
+
+.table .action-icon {
+    color:#292929;
+    font-size: 0.9rem;
+    padding: 10px 25px;
+}
+.table .action-icon:hover {
+    color: #69A200;
+}
+
+
+/*--------------------- Check -----------------*/
+.wrapper .content-page .container-fluid h5{
+    font-size: 15px;
+    color: #292929;
+}
+
+.wrapper .content-page .container-fluid .card{
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08177);
+    border-radius: 7px;
+}
+.wrapper .content-page .container-fluid table tbody tr  td button
+{
+    padding: 5px;
+    color: #48515B;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08177);
+    border-radius: 7px;
+}
+.wrapper .content-page .container-fluid table tbody tr  td button:hover
+{
+    color: #fff;
+    background: #69A200;
+    border: 1px solid #69A200;
+    border-radius: 7px;
+}
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+    height: 50vh;
+}
+

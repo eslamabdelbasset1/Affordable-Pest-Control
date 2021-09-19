@@ -1,0 +1,169 @@
+
+.form-check-input:focus {
+    border-color: #c8cbcf;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.form-check-input:checked {
+    background-color: #69A200;
+    border-color: #69A200;
+}
+
+.widget-flat
+{
+    border: 14px ;
+}
+
+.widget-flat h5{
+    font-size: 25px;
+}
+.widget-flat h5 i.fa-arrow-up{color: #69A200}
+.widget-flat h5 i.fa-arrow-down{color: #C52929}
+#leftside-menu-container .simplebar-wrapper .simplebar-mask .logout.text-white.text-center  a
+{
+    color: #939DA7;
+    background: #FFFFFF;
+    border-radius: 7px;
+    padding: 9px 28px;
+    font-size: 17px;
+    text-decoration: none;
+
+}
+.wrapper .content-page .container-fluid .user-wrapper.d-flex svg
+{
+    position: relative;
+    top: 83%;
+    right: 84%;
+}
+
+.logout
+{
+    margin: 80px 1px;
+    border-radius: 5px;
+    padding: 9px;
+    background-color: #f4f4f400;;
+}
+.help-box i.fa-sign-out-alt
+{
+    margin-left: 20%;
+}
+#hideTextLogo  span {
+    background: #FFFFFF;
+    border-radius: 7px;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #939DA7;
+}
+
+/*-------------------- Check Model ----------------*/
+
+/*--------------------Model---------------*/
+
+ .modal-body input[type=text]
+{
+    width: 15%;
+    height: 29%;
+    border-radius: 5px;
+    border: 1px solid #a0a0a0;
+}
+
+ .modal-body  span
+{
+    font-size: 12px;
+    margin-left: 5px;
+}
+ .modal-body .colors{
+    border: 0.5px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 7px;
+}
+ .modal-body  span.medium,
+.table .colors span.badge.medium
+{color: #FF7629; background: #FF7629}
+
+.modal-content .btn-success
+{
+    font-size: 12px;
+    padding: 4px 15px;
+
+}
+.modal-content .btn-success a:hover
+{
+    color: #fff
+
+}
+ a{color: #fff; text-decoration: none;}
+ .modal-header > button.btn.btn-success {padding: 3px 10px;}
+.modal-footer{display: inline-block !important}
+.modal-content .modal-footer .btn-success {float: right !important}
+.modal-content .modal-footer .btn-outline-light
+{
+    padding: 4px;
+    font-size: 12px;
+    color: #939DA7;
+    border: 1px solid #939DA7;
+
+}
+/*------------------------End Model ---------------------------*/
+
+/*------------------------ Start Rodent Report Personal ---------------*/
+
+
+select.form-select,
+.print
+{
+    border: 1px solid #E5E5E5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08177);
+    border-radius: 7px;
+    text-align: center;
+}
+.print{
+    margin-left: 15px;
+    padding: 7px 15px;
+    background: #fff;
+}
+i.fa-share-alt{
+    position: absolute;
+    top: 13%;
+    left: 81%;
+    transform: translate(-37%, -23%);
+    font-size: 14px;
+}
+.wrapper .content-page .container-fluid h5 {
+    font-size: 13px;
+    color: #292929;
+}
+
+table.dataTable tbody td {
+    width: 20%;}
+
+#staffDate tr td input[type=text]
+{
+    width: 12%;
+    height: 15px;
+    border-radius: 5px;
+    border: 1px solid #a0a0a0;
+}
+ .table .colors span{margin-left: 5px; font-size: 8px;}
+
+
+
+/*// -------------- Print ------------------*/
+@media print {
+    body{
+        background: transparent;
+    }
+    .sidebar,
+    header,
+    select.form-select,
+    .print
+    {
+        display: none;
+    }
+
+}
+
+
+/*--------------------*/

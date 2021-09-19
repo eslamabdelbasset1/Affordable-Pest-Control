@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!--<title> Affordable Pest Control </title>-->
+    <title>Affordable Pest Control</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="../../assets/images/logo/apc_logo.png">
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- third party css -->
+    <link rel="stylesheet" href="../../assets/css/all.min.css">
+    <!-- third party css -->
+    <!-- third party css -->
+    <link href="../../assets/css/vendor/dataTables.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="../../assets/css/vendor/responsive.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="../../assets/css/vendor/buttons.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="../../assets/css/vendor/select.bootstrap5.css" rel="stylesheet" type="text/css">
+    <!-- third party css end -->
+
+    <!-- App css -->
+    <link href="../../assets/css/icons.min.css" rel="stylesheet" type="text/css">
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="light-style">
+    <link href="../../assets/css/bootstrap-dark.min.css" rel="stylesheet" type="text/css" id="dark-style">
+    <link href="../../assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="../../assets/css/vendor/staffStyle.css" rel="stylesheet" type="text/css">
+    <link href="../../assets/css/responsive.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="loading"
+      data-layout-config='{"leftSideBarTheme":"dark","layoutBoxed":false, "leftSidebarCondensed":false,
+          "leftSidebarScrollable":false,"darkMode":false, "showRightSidebarOnStart": true}'>
+<!-- Begin page -->
+<div class="wrapper">
+    <!-- ========== Left Sidebar Start ========== -->
+    <div class="leftside-menu"  >
+
+        <!-- LOGO -->
+        <a href="../../index.html" class="logo text-center logo-light">
+                        <span class="logo-lg">
+                            <img src="../../assets/images/logo/Bitmap.png" alt="" height="40">
+                        </span>
+            <span class="logo-sm">
+                            <img src="../../assets/images/logo/apc_logo.png" alt="" height="25">
+                        </span>
+        </a>
+
+        <!-- LOGO -->
+        <a href="../../index.html" class="logo text-center logo-dark">
+                       <span class="logo-lg">
+                            <img src="../../assets/images/logo/Bitmap.png" alt="" height="40">
+                        </span>
+            <span class="logo-sm">
+                            <img src="../../assets/images/logo/apc_logo.png" alt="" height="25">
+                        </span>
+        </a>
+
+        <div class="h-100" id="leftside-menu-container" data-simplebar="">
+
+            <!--- Sidemenu -->
+            <ul class="side-nav">
+
+                <li class="side-nav-title side-nav-item">MAIN MENU</li>
+
+                <li class="side-nav-item">
+                    <a data-bs-toggle="collapse" href="#sidebarDashboards" aria-expanded="false" aria-controls="sidebarDashboards" class="side-nav-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">&ndash;&gt;-->
+                            <path d="M5.78125 0H1.09375C0.490625 0 0 0.490625 0 1.09375V3.90625C0 4.50938 0.490625 5 1.09375 5H5.78125C6.38438 5 6.875 4.50938 6.875 3.90625V1.09375C6.875 0.490625 6.38438 0 5.78125 0Z" fill="#929292"/>
+                            <path d="M5.78125 6.25H1.09375C0.490625 6.25 0 6.74063 0 7.34375V13.9062C0 14.5094 0.490625 15 1.09375 15H5.78125C6.38438 15 6.875 14.5094 6.875 13.9062V7.34375C6.875 6.74063 6.38438 6.25 5.78125 6.25Z" fill="#929292"/>
+                            <path d="M13.9062 10H9.21875C8.61563 10 8.125 10.4906 8.125 11.0938V13.9062C8.125 14.5094 8.61563 15 9.21875 15H13.9062C14.5094 15 15 14.5094 15 13.9062V11.0938C15 10.4906 14.5094 10 13.9062 10Z" fill="#929292"/>
+                            <path d="M13.9062 0H9.21875C8.61563 0 8.125 0.490625 8.125 1.09375V7.65625C8.125 8.25937 8.61563 8.75 9.21875 8.75H13.9062C14.5094 8.75 15 8.25937 15 7.65625V1.09375C15 0.490625 14.5094 0 13.9062 0Z" fill="#929292"/>
+                        </svg>
+                        <span> Dashboards </span>
+                    </a>
+                </li>
+
+                <li class="side-nav-item">
+                    <a data-bs-toggle="collapse" href="#sidebarStaff" aria-expanded="false" aria-controls="sidebarDashboards" class="side-nav-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 14 17" fill="none">-->
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8333 0.333313H11.6667V0.916646C11.6667 1.88148 10.8815 2.66665 9.91667 2.66665H4.08333C3.1185 2.66665 2.33333 1.88148 2.33333 0.916646V0.333313H1.16667C0.523833 0.333313 0 0.857146 0 1.49998V15.5C0 16.1545 0.512167 16.6666 1.16667 16.6666H12.8333C13.4878 16.6666 14 16.1545 14 15.5V1.49998C14 0.84548 13.4878 0.333313 12.8333 0.333313ZM7 4.99998C8.28683 4.99998 9.33333 6.04648 9.33333 7.33331C9.33333 8.62015 8.28683 9.66665 7 9.66665C5.71317 9.66665 4.66667 8.62015 4.66667 7.33331C4.66667 6.04648 5.71317 4.99998 7 4.99998ZM11.0833 14.3333C11.4053 14.3333 11.6667 14.072 11.6667 13.75V12.5833C11.6667 12.3815 11.5628 12.1948 11.3913 12.0875C8.68467 10.4051 5.31883 10.404 2.60867 12.0875C2.43717 12.1948 2.33333 12.3815 2.33333 12.5833V13.75C2.33333 14.072 2.59467 14.3333 2.91667 14.3333H11.0833Z" fill="#939DA7"/>
+                        </svg>
+                        <span class="badge bg-light text-dark float-end">1,509</span>
+                        <span> Staff </span>
+                    </a>
+                    <div class="collapse" id="sidebarStaff">
+                        <ul class="side-nav-second-level">
+                            <li><a href="">All Staf</a></li>
+                            <li><a href="">Staff Locations</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="side-nav-item">
+                    <a href="" class="side-nav-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="none">-->
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9589 1.35624C14.651 0.224502 13.758 -0.198937 12.7224 0.0859221L3.57998 2.53417H15.2669L14.9589 1.35624ZM8.05689 7.03417C8.22241 6.89174 8.45723 6.79935 8.76518 6.77626V8.54311C8.38794 8.42378 8.13003 8.28524 7.9876 8.16587C7.84517 8.02344 7.77588 7.85791 7.77588 7.62309C7.79897 7.38832 7.89136 7.19969 8.05689 7.03417ZM18 13.3242V5.4559C18 4.46659 17.1762 3.64277 16.1831 3.64281H1.81309C0.800684 3.64281 0 4.44349 0 5.4559V13.3242C0 14.3366 0.800684 15.1373 1.81309 15.1373H16.1869C17.1993 15.1373 18 14.3366 18 13.3242ZM11.7331 10.8258C11.7331 10.2368 11.5445 9.79037 11.1672 9.45928C10.79 9.12819 10.2241 8.89345 9.44657 8.72789H9.42344V6.81852C9.94311 6.88781 10.4358 7.09953 10.8824 7.40749L11.5406 6.46437C10.8824 6.01784 10.1741 5.75608 9.41959 5.70988V5.19021H8.76133V5.68679C8.10308 5.70988 7.5834 5.9216 7.15997 6.29885C6.75962 6.67609 6.5479 7.14573 6.5479 7.73469C6.5479 8.32366 6.73653 8.77019 7.09068 9.05505C7.44482 9.363 8.01069 9.5979 8.76518 9.78644V11.7651C8.15312 11.6727 7.58725 11.3647 6.99829 10.8681L6.2438 11.7651C6.97519 12.4002 7.82207 12.7775 8.74209 12.8737V13.6283H9.40034V12.8969C10.0817 12.8737 10.6475 12.662 11.0749 12.2848C11.5214 11.8883 11.7331 11.4148 11.7331 10.8258ZM9.42344 11.792V9.95586C9.84688 10.0752 10.1086 10.2138 10.2703 10.3562C10.4127 10.4986 10.482 10.6872 10.482 10.922C10.482 11.1569 10.3896 11.3455 10.201 11.511C10.0124 11.6727 9.75453 11.7689 9.42344 11.792Z" fill="#939DA7"/>
+                        </svg>
+                        <span> Wages </span>
+                    </a>
+                </li>
+
+                <li class="side-nav-item">
+                    <a  class="side-nav-link" data-bs-toggle="collapse" href="#sidebarClient" aria-expanded="false" aria-controls="sidebarDashboards">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 16 18" fill="none">-->
+                            <path d="M13.2434 11.552L10.744 11.0514C10.4789 10.9989 10.2857 10.7634 10.2857 10.4914V9.91771C10.4503 9.68914 10.6046 9.384 10.7646 9.06514C10.8869 8.824 11.0709 8.46057 11.1531 8.37486C11.6377 7.90057 12.1543 7.312 12.312 6.54514C12.4549 5.85029 12.312 5.48914 12.1463 5.20343C12.1463 4.64457 12.1463 3.62171 11.952 2.88457C11.9326 1.99429 11.7691 1.49143 11.3589 1.04343C11.0686 0.730286 10.6411 0.657143 10.2983 0.598857C10.1623 0.576 9.976 0.544 9.91086 0.508571C9.31771 0.180571 8.71543 0.0182857 7.97829 0C6.46971 0.0571429 4.61829 1.01371 3.99886 2.73371C3.81029 3.256 3.82857 4.11314 3.84229 4.80229L3.82629 5.20343C3.68114 5.48914 3.53829 5.85029 3.68229 6.544C3.84 7.31429 4.35657 7.90171 4.83886 8.37371C4.92229 8.46057 5.10857 8.82629 5.232 9.06743C5.39429 9.38514 5.54971 9.69029 5.71429 9.91886V10.4914C5.71429 10.7634 5.52114 10.9989 5.25486 11.0514L2.75543 11.552C1.15886 11.8709 0 13.2846 0 14.9131V16C0 16.6297 0.513143 17.1429 1.14286 17.1429H14.8571C15.4869 17.1429 16 16.6297 16 16V14.9131C16 13.2846 14.8411 11.8709 13.2434 11.552Z" fill="#939DA7"/>
+                        </svg>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9589 1.35624C14.651 0.224502 13.758 -0.198937 12.7224 0.0859221L3.57998 2.53417H15.2669L14.9589 1.35624ZM8.05689 7.03417C8.22241 6.89174 8.45723 6.79935 8.76518 6.77626V8.54311C8.38794 8.42378 8.13003 8.28524 7.9876 8.16587C7.84517 8.02344 7.77588 7.85791 7.77588 7.62309C7.79897 7.38832 7.89136 7.19969 8.05689 7.03417ZM18 13.3242V5.4559C18 4.46659 17.1762 3.64277 16.1831 3.64281H1.81309C0.800684 3.64281 0 4.44349 0 5.4559V13.3242C0 14.3366 0.800684 15.1373 1.81309 15.1373H16.1869C17.1993 15.1373 18 14.3366 18 13.3242ZM11.7331 10.8258C11.7331 10.2368 11.5445 9.79037 11.1672 9.45928C10.79 9.12819 10.2241 8.89345 9.44657 8.72789H9.42344V6.81852C9.94311 6.88781 10.4358 7.09953 10.8824 7.40749L11.5406 6.46437C10.8824 6.01784 10.1741 5.75608 9.41959 5.70988V5.19021H8.76133V5.68679C8.10308 5.70988 7.5834 5.9216 7.15997 6.29885C6.75962 6.67609 6.5479 7.14573 6.5479 7.73469C6.5479 8.32366 6.73653 8.77019 7.09068 9.05505C7.44482 9.363 8.01069 9.5979 8.76518 9.78644V11.7651C8.15312 11.6727 7.58725 11.3647 6.99829 10.8681L6.2438 11.7651C6.97519 12.4002 7.82207 12.7775 8.74209 12.8737V13.6283H9.40034V12.8969C10.0817 12.8737 10.6475 12.662 11.0749 12.2848C11.5214 11.8883 11.7331 11.4148 11.7331 10.8258ZM9.42344 11.792V9.95586C9.84688 10.0752 10.1086 10.2138 10.2703 10.3562C10.4127 10.4986 10.482 10.6872 10.482 10.922C10.482 11.1569 10.3896 11.3455 10.201 11.511C10.0124 11.6727 9.75453 11.7689 9.42344 11.792Z" fill="#939DA7"/>
+                        </svg>
+                        <span> Clients </span>
+                        <span class="menu-arrow"></span>
+                    </a>
+                    <div class="collapse" id="sidebarClient">
+                        <ul class="side-nav-second-level">
+                            <li><a href="">All Clients</a></li>
+                            <li><a href="">Business Client</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="side-nav-item">
+                    <a class="side-nav-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">-->
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.71875 0H13.2812C14.2294 0 15 0.770625 15 1.71875V13.2812C15 14.2294 14.2294 15 13.2812 15H1.71875C0.770625 15 0 14.2294 0 13.2812V1.71875C0 0.770625 0.770625 0 1.71875 0ZM5 10.625H10C10.3456 10.625 10.625 10.345 10.625 10C10.625 9.655 10.3456 9.375 10 9.375H5C4.65438 9.375 4.375 9.655 4.375 10C4.375 10.345 4.65438 10.625 5 10.625ZM10 8.125H5C4.65438 8.125 4.375 7.845 4.375 7.5C4.375 7.155 4.65438 6.875 5 6.875H10C10.3456 6.875 10.625 7.155 10.625 7.5C10.625 7.845 10.3456 8.125 10 8.125ZM5 5.625H10C10.3456 5.625 10.625 5.345 10.625 5C10.625 4.655 10.3456 4.375 10 4.375H5C4.65438 4.375 4.375 4.655 4.375 5C4.375 5.345 4.65438 5.625 5 5.625Z" fill="#939DA7"/>
+                        </svg>
+                        <span> Roster </span>
+                    </a>
+                </li>
+
+                <li class="side-nav-item">
+                    <a class="side-nav-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15" fill="none">-->
+                            <path d="M10.6248 3.1875C10.2338 3.1875 9.9165 2.87017 9.9165 2.47917V1.41667H7.08317V2.47917C7.08317 2.87017 6.76584 3.1875 6.37484 3.1875C5.98384 3.1875 5.6665 2.87017 5.6665 2.47917V1.41667C5.6665 0.635375 6.30188 0 7.08317 0H9.9165C10.6978 0 11.3332 0.635375 11.3332 1.41667V2.47917C11.3332 2.87017 11.0158 3.1875 10.6248 3.1875Z" fill="#939DA7"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.94792 2.125H15.0521C16.1287 2.125 17 2.99625 17 4.07292V6.375H12.75V5.48958C12.75 5.19917 12.5092 4.95833 12.2188 4.95833C11.9283 4.95833 11.6875 5.19917 11.6875 5.48958V6.375H5.3125V5.48958C5.3125 5.19917 5.07167 4.95833 4.78125 4.95833C4.49083 4.95833 4.25 5.19917 4.25 5.48958V6.375H0V4.07292C0 2.99625 0.87125 2.125 1.94792 2.125ZM12.75 8.08917V7.4375H17V12.2188C17 13.2954 16.1287 14.1667 15.0521 14.1667H1.94792C0.87125 14.1667 0 13.2954 0 12.2188V7.4375H4.25V8.08917C4.25 8.37958 4.49083 8.62042 4.78125 8.62042C5.07167 8.62042 5.3125 8.37958 5.3125 8.08917V7.4375H11.6875V8.08917C11.6875 8.37958 11.9283 8.62042 12.2188 8.62042C12.5092 8.62042 12.75 8.37958 12.75 8.08917Z" fill="#939DA7"/>
+                        </svg>
+                        <span class="badge bg-light text-dark float-end">75</span>
+                        <span> Jobs </span>
+                    </a>
+                </li>
+
+                <li class="side-nav-item">
+                    <a href="" class="side-nav-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">-->
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7604 7.08333H9.73958C9.05533 7.08333 8.5 7.63867 8.5 8.32292V15.7604C8.5 16.4447 9.05533 17 9.73958 17H15.7604C16.4447 17 17 16.4447 17 15.7604V8.32292C17 7.63867 16.4447 7.08333 15.7604 7.08333ZM14.2552 14.1667H11.0677C10.7745 14.1667 10.5365 13.9287 10.5365 13.6354C10.5365 13.3422 10.7745 13.1042 11.0677 13.1042H14.2552C14.5485 13.1042 14.7865 13.3422 14.7865 13.6354C14.7865 13.9287 14.5485 14.1667 14.2552 14.1667ZM11.0677 12.0417H14.2552C14.5485 12.0417 14.7865 11.8037 14.7865 11.5104C14.7865 11.2172 14.5485 10.9792 14.2552 10.9792H11.0677C10.7745 10.9792 10.5365 11.2172 10.5365 11.5104C10.5365 11.8037 10.7745 12.0417 11.0677 12.0417Z" fill="#939DA7"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.20833 2.125H10.0938C11.1683 2.125 12.0417 2.99837 12.0417 4.07292V6.02083H9.73958C8.47025 6.02083 7.4375 7.05358 7.4375 8.32292V14.875H1.94792C0.873375 14.875 0 14.0016 0 12.9271V4.07292C0 2.99837 0.873375 2.125 1.94792 2.125H2.83333V1.94792C2.83333 1.65467 3.07133 1.41667 3.36458 1.41667H4.14658C4.37892 0.599958 5.13046 0 6.02083 0C6.91121 0 7.66275 0.599958 7.89508 1.41667H8.67708C8.97033 1.41667 9.20833 1.65467 9.20833 1.94792V2.125ZM4.60417 2.47917H3.89583V3.36458C3.89583 3.46233 3.97517 3.54167 4.07292 3.54167H7.96875C8.0665 3.54167 8.14583 3.46233 8.14583 3.36458V2.47917H7.4375C7.14425 2.47917 6.90625 2.24117 6.90625 1.94792C6.90625 1.45987 6.50887 1.0625 6.02083 1.0625C5.53279 1.0625 5.13542 1.45987 5.13542 1.94792C5.13542 2.24117 4.89742 2.47917 4.60417 2.47917Z" fill="#939DA7"/>
+                        </svg>
+                        <span> Invoices </span>
+                    </a>
+                </li>
+                <li class="side-nav-item">
+                    <a  class="side-nav-link" data-bs-toggle="collapse" href="#sidebarReport" aria-expanded="false" aria-controls="sidebarDashboards">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 16 18" fill="none">-->
+                            <path d="M13.2434 11.552L10.744 11.0514C10.4789 10.9989 10.2857 10.7634 10.2857 10.4914V9.91771C10.4503 9.68914 10.6046 9.384 10.7646 9.06514C10.8869 8.824 11.0709 8.46057 11.1531 8.37486C11.6377 7.90057 12.1543 7.312 12.312 6.54514C12.4549 5.85029 12.312 5.48914 12.1463 5.20343C12.1463 4.64457 12.1463 3.62171 11.952 2.88457C11.9326 1.99429 11.7691 1.49143 11.3589 1.04343C11.0686 0.730286 10.6411 0.657143 10.2983 0.598857C10.1623 0.576 9.976 0.544 9.91086 0.508571C9.31771 0.180571 8.71543 0.0182857 7.97829 0C6.46971 0.0571429 4.61829 1.01371 3.99886 2.73371C3.81029 3.256 3.82857 4.11314 3.84229 4.80229L3.82629 5.20343C3.68114 5.48914 3.53829 5.85029 3.68229 6.544C3.84 7.31429 4.35657 7.90171 4.83886 8.37371C4.92229 8.46057 5.10857 8.82629 5.232 9.06743C5.39429 9.38514 5.54971 9.69029 5.71429 9.91886V10.4914C5.71429 10.7634 5.52114 10.9989 5.25486 11.0514L2.75543 11.552C1.15886 11.8709 0 13.2846 0 14.9131V16C0 16.6297 0.513143 17.1429 1.14286 17.1429H14.8571C15.4869 17.1429 16 16.6297 16 16V14.9131C16 13.2846 14.8411 11.8709 13.2434 11.552Z" fill="#939DA7"/>
+                        </svg>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9589 1.35624C14.651 0.224502 13.758 -0.198937 12.7224 0.0859221L3.57998 2.53417H15.2669L14.9589 1.35624ZM8.05689 7.03417C8.22241 6.89174 8.45723 6.79935 8.76518 6.77626V8.54311C8.38794 8.42378 8.13003 8.28524 7.9876 8.16587C7.84517 8.02344 7.77588 7.85791 7.77588 7.62309C7.79897 7.38832 7.89136 7.19969 8.05689 7.03417ZM18 13.3242V5.4559C18 4.46659 17.1762 3.64277 16.1831 3.64281H1.81309C0.800684 3.64281 0 4.44349 0 5.4559V13.3242C0 14.3366 0.800684 15.1373 1.81309 15.1373H16.1869C17.1993 15.1373 18 14.3366 18 13.3242ZM11.7331 10.8258C11.7331 10.2368 11.5445 9.79037 11.1672 9.45928C10.79 9.12819 10.2241 8.89345 9.44657 8.72789H9.42344V6.81852C9.94311 6.88781 10.4358 7.09953 10.8824 7.40749L11.5406 6.46437C10.8824 6.01784 10.1741 5.75608 9.41959 5.70988V5.19021H8.76133V5.68679C8.10308 5.70988 7.5834 5.9216 7.15997 6.29885C6.75962 6.67609 6.5479 7.14573 6.5479 7.73469C6.5479 8.32366 6.73653 8.77019 7.09068 9.05505C7.44482 9.363 8.01069 9.5979 8.76518 9.78644V11.7651C8.15312 11.6727 7.58725 11.3647 6.99829 10.8681L6.2438 11.7651C6.97519 12.4002 7.82207 12.7775 8.74209 12.8737V13.6283H9.40034V12.8969C10.0817 12.8737 10.6475 12.662 11.0749 12.2848C11.5214 11.8883 11.7331 11.4148 11.7331 10.8258ZM9.42344 11.792V9.95586C9.84688 10.0752 10.1086 10.2138 10.2703 10.3562C10.4127 10.4986 10.482 10.6872 10.482 10.922C10.482 11.1569 10.3896 11.3455 10.201 11.511C10.0124 11.6727 9.75453 11.7689 9.42344 11.792Z" fill="#939DA7"/>
+                        </svg>
+                        <span> Report </span>
+                        <span class="menu-arrow"></span>
+                    </a>
+                    <div class="collapse" id="sidebarReport">
+                        <ul class="side-nav-second-level">
+                            <li><a>Termite Inspection</a></li>
+                            <li><a href="">Rodent Reports</a></li>
+                            <li><a>Service Reports</a></li>
+                            <li><a>Report Setting</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="side-nav-title side-nav-item">SUPPORT</li>
+
+                <li class="side-nav-item">
+                    <a class="side-nav-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">-->
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.6029 6.86654L17.013 7.04579C17.5755 7.1133 18.0007 7.59257 18 8.16034V9.84041C18 10.4082 17.5747 10.8875 17.01 10.955L15.6029 11.1342C15.4874 11.492 15.3441 11.837 15.1761 12.1648L16.0469 13.2853C16.3994 13.7398 16.3582 14.3796 15.9517 14.7741L14.7704 15.9554C14.3803 16.3582 13.7398 16.3994 13.2861 16.0469L12.1648 15.1761C11.837 15.3434 11.492 15.4866 11.1342 15.6029L10.955 17.013C10.8875 17.5755 10.4082 18.0007 9.84041 18.0007H8.16034C7.59257 18.0007 7.1133 17.5755 7.04579 17.0092L6.86654 15.6021C6.50877 15.4866 6.16376 15.3434 5.83599 15.1754L4.71545 16.0462C4.26093 16.3979 3.62115 16.3574 3.22663 15.9517L2.04534 14.7704C1.64257 14.3803 1.60132 13.7398 1.95383 13.2861L2.82462 12.1648C2.65736 11.837 2.5141 11.492 2.39785 11.1342L0.987791 10.955C0.425268 10.8875 0 10.4082 0 9.84041V8.16034C0 7.59257 0.425268 7.1133 0.990041 7.04579L2.39785 6.86654C2.5141 6.50877 2.65661 6.16376 2.82462 5.83599L1.95383 4.71545C1.60132 4.26093 1.64257 3.6204 2.04909 3.22588L3.23038 2.04534C3.62115 1.64257 4.26168 1.60207 4.7147 1.95383L5.83524 2.82462C6.16301 2.65661 6.50802 2.5141 6.86654 2.39785L7.04579 0.987791C7.1133 0.425268 7.59257 0 8.16034 0H9.84041C10.4082 0 10.8875 0.425268 10.955 0.990041L11.1342 2.39785C11.4927 2.5141 11.8377 2.65736 12.1655 2.82462L13.2853 1.95383C13.7398 1.60207 14.3803 1.64257 14.7741 2.04909L15.9554 3.23038C16.3582 3.6204 16.3994 4.26093 16.0469 4.7147L15.1761 5.83599C15.3434 6.16376 15.4866 6.50877 15.6029 6.86654ZM5.25022 9.00037C5.25022 11.0682 6.93254 12.7505 9.00037 12.7505C11.0682 12.7505 12.7505 11.0682 12.7505 9.00037C12.7505 6.93254 11.0682 5.25022 9.00037 5.25022C6.93254 5.25022 5.25022 6.93254 5.25022 9.00037Z" fill="#939DA7"/>
+                        </svg>
+                        <span> Setting </span>
+                    </a>
+                </li>
+
+                <li class="side-nav-item">
+                    <a href="" class="side-nav-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.48681 14.5132C-0.828936 11.1975 -0.828936 5.80255 2.48681 2.48681C5.80184 -0.828936 11.1975 -0.828936 14.5132 2.48681C17.8289 5.80255 17.8289 11.1975 14.5132 14.5132C11.1975 17.8289 5.80255 17.8289 2.48681 14.5132ZM6.24474 10.7545C7.48841 11.9982 9.51088 11.9982 10.7545 10.7545C11.9982 9.51088 11.9982 7.48841 10.7545 6.24474C9.51088 5.00107 7.48841 5.00107 6.24474 6.24474C5.00107 7.48841 5.00107 9.51088 6.24474 10.7545ZM3.23797 13.7613C3.1423 13.6657 3.0516 13.5679 2.96372 13.4679C2.71712 13.1873 2.73129 12.7643 2.99561 12.4999L4.2492 11.2463C4.38881 11.1067 4.58014 11.0316 4.77714 11.0394C4.97414 11.0472 5.15981 11.1358 5.28878 11.2853C5.35398 11.3611 5.42201 11.4341 5.49358 11.5057C5.56515 11.5773 5.63885 11.6453 5.71397 11.7105C5.86349 11.8388 5.95278 12.0244 5.96058 12.2214C5.96837 12.4184 5.89255 12.6098 5.75294 12.7494L4.49935 14.003C4.23574 14.2666 3.81197 14.2815 3.53135 14.0349C3.43143 13.9477 3.33364 13.8563 3.23797 13.7613ZM11.0387 4.77785C11.0465 4.97485 11.1358 5.16052 11.2853 5.28878C11.3611 5.35327 11.4348 5.4213 11.5057 5.49429C11.5773 5.56586 11.6453 5.63885 11.7105 5.71468C11.8395 5.8642 12.0251 5.95349 12.2221 5.96058C12.4192 5.96837 12.6105 5.89326 12.7501 5.75365L14.0037 4.50006C14.268 4.23574 14.2822 3.81268 14.0356 3.53206C13.9477 3.43214 13.857 3.33434 13.7613 3.23868C13.6657 3.14301 13.5679 3.0523 13.4679 2.96443C13.1873 2.71782 12.7636 2.73271 12.4999 2.99632L11.2463 4.24991C11.1067 4.38951 11.0316 4.58085 11.0387 4.77785ZM3.53135 2.96443C3.81197 2.71782 4.23503 2.732 4.49935 2.99632L5.75294 4.24991C5.89184 4.38881 5.96695 4.58014 5.95987 4.77714C5.95278 4.97414 5.86349 5.15981 5.71397 5.28878C5.63814 5.35327 5.56445 5.4213 5.49287 5.49287C5.4213 5.56445 5.35327 5.63814 5.28878 5.71397C5.15981 5.86349 4.97485 5.95278 4.77785 5.96058C4.58085 5.96766 4.38951 5.89255 4.24991 5.75294L2.99632 4.49935C2.73271 4.23574 2.71782 3.81197 2.96443 3.53135C3.0516 3.43143 3.14301 3.33364 3.23797 3.23797C3.33364 3.14301 3.43143 3.0516 3.53135 2.96443ZM12.4999 14.003C12.7643 14.2673 13.1873 14.2815 13.4679 14.0349C13.5679 13.9477 13.6649 13.8563 13.7606 13.7606C13.8563 13.6649 13.947 13.5672 14.0349 13.4672C14.2815 13.1866 14.2666 12.7628 14.003 12.4992L12.7494 11.2456C12.6098 11.106 12.4184 11.0302 12.2214 11.038C12.0244 11.0458 11.8388 11.1351 11.7105 11.2846C11.6453 11.3597 11.5773 11.4334 11.5057 11.505C11.4341 11.5766 11.3611 11.6446 11.2853 11.7098C11.1358 11.8388 11.0465 12.0244 11.0394 12.2214C11.0316 12.4184 11.1067 12.6098 11.2463 12.7494L12.4999 14.003Z" fill="#939DA7"/>
+                        </svg>
+                        <span> Need Help? </span>
+                    </a>
+                </li>
+
+            </ul>
+
+            <!-- logout -->
+            <div class="logout help-box">
+                <a class="text-logo">
+                    <h5 id="hideTextLogo"><span>Sign Up  <i class="fas fa-sign-out-alt"></i></span></h5>
+                </a>
+            </div>
+            <!-- end logout -->
+            <!-- End Sidebar -->
+            <div class="clearfix"></div>
+        </div>
+        <!-- Sidebar -left -->
+
+    </div>
+    <!-- Left Sidebar End -->
+
+    <!-- ============================================================== -->
+    <!-- Start Page Content here -->
+    <!-- ============================================================== -->
+
+    <div class="content-page">
+
+        <div class="content">
+            <!-- Topbar Start -->
+            <div class="navbar-custom">
+                <ul class="list-unstyled topbar-menu float-end mb-0">
+                    <li class="dropdown notification-list d-none">
+                        <a class="nav-link dropdown-toggle arrow-none" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13" fill="none">
+                                <path d="M13 1.5H1" stroke="#8F99A4" stroke-width="1.8" stroke-linecap="round"/>
+                                <path d="M13 11.5H1" stroke="#8F99A4" stroke-width="1.8" stroke-linecap="round"/>
+                                <path d="M9.33692 6.5H1" stroke="#8F99A4" stroke-width="1.8" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-animated dropdown-lg p-0">
+                            <form class="p-3">
+                                <input type="text" class="form-control" placeholder="Search for anything…" aria-label="Recipient's username">
+                            </form>
+                        </div>
+                    </li>
+
+                    <li class="dropdown notification-list">
+                        <a class="nav-link dropdown-toggle arrow-none" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                            <i class="dripicons-bell noti-icon"></i>
+                            <span class="noti-icon-badge"></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated dropdown-lg">
+
+                            <!-- item-->
+                            <div class="dropdown-item noti-title">
+                                <h5 class="m-0">
+                                                <span class="float-end">
+                                                    <a href="javascript: void(0);" class="text-dark">
+                                                        <small>Clear All</small>
+                                                    </a>
+                                                </span>Notification
+                                </h5>
+                            </div>
+
+                            <div style="max-height: 230px;" data-simplebar="">
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-primary">
+                                        <i class="mdi mdi-comment-account-outline"></i>
+                                    </div>
+                                    <p class="notify-details">Caleb Flakelar
+                                        <small class="text-muted">1 min ago</small>
+                                    </p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-info">
+                                        <i class="mdi mdi-account-plus"></i>
+                                    </div>
+                                    <p class="notify-details">New user
+                                        <small class="text-muted">5 hours ago</small>
+                                    </p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon">
+                                        <img src="../../assets/images/users/avatar-2.jpg" class="img-fluid rounded-circle" alt=""> </div>
+                                    <p class="notify-details">Cristina Pride</p>
+                                    <p class="text-muted mb-0 user-msg">
+                                        <small>Hi, How are you? What about our next meeting</small>
+                                    </p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-primary">
+                                        <i class="mdi mdi-comment-account-outline"></i>
+                                    </div>
+                                    <p class="notify-details">Caleb Flakelar commented on Admin
+                                        <small class="text-muted">4 days ago</small>
+                                    </p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon">
+                                        <img src="../../assets/images/users/avatar-4.jpg" class="img-fluid rounded-circle" alt=""> </div>
+                                    <p class="notify-details">Karen Robinson</p>
+                                    <p class="text-muted mb-0 user-msg">
+                                        <small> looks good and awesome design</small>
+                                    </p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-info">
+                                        <i class="mdi mdi-heart"></i>
+                                    </div>
+                                    <p class="notify-details">Carlos Crouch liked
+                                        <b>Admin</b>
+                                        <small class="text-muted">13 days ago</small>
+                                    </p>
+                                </a>
+                            </div>
+
+                            <!-- All-->
+                            <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">
+                                View All
+                            </a>
+
+                        </div>
+                    </li>
+
+
+                    <li class="notification-list">
+                        <a class="nav-link end-bar-toggle" href="javascript: void(0);">
+                            <i class="dripicons-gear noti-icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="dropdown notification-list">
+                        <a class="nav-link dropdown-toggle nav-user arrow-none me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                <span class="account-user-avatar">
+                                    <img src="../../assets/images/logo/Bitmap-profile.png" alt="user-image" class="rounded-circle">
+                                </span>
+                            <span>
+                                    <span class="account-user-name mt-1">Andrew Smith</span>
+                                </span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated topbar-dropdown-menu profile-dropdown">
+                            <!-- item-->
+                            <div class=" dropdown-header noti-title">
+                                <h6 class="text-overflow m-0">Welcome !</h6>
+                            </div>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="mdi mdi-account-circle me-1"></i>
+                                <span>My Account</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="mdi mdi-account-edit me-1"></i>
+                                <span>Settings</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="mdi mdi-lifebuoy me-1"></i>
+                                <span>Support</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="mdi mdi-lock-outline me-1"></i>
+                                <span>Lock Screen</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="mdi mdi-logout me-1"></i>
+                                <span>Logout</span>
+                            </a>
+                        </div>
+                    </li>
+
+                </ul>
+                <button class="button-menu-mobile open-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13" fill="none">
+                        <path d="M13 1.5H1" stroke="#8F99A4" stroke-width="1.8" stroke-linecap="round"/>
+                        <path d="M13 11.5H1" stroke="#8F99A4" stroke-width="1.8" stroke-linecap="round"/>
+                        <path d="M9.33692 6.5H1" stroke="#8F99A4" stroke-width="1.8" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                <div class="app-search dropdown d-none d-lg-block">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="form-control dropdown-toggle" placeholder="Search..." id="top-search">
+                            <span class="mdi mdi-magnify search-icon"></span>
+                        </div>
+                    </form>
+                    <div class="dropdown-menu dropdown-menu-animated dropdown-lg" id="search-dropdown">
+                        <!-- item-->
+                        <div class="dropdown-header noti-title">
+                            <h5 class="text-overflow mb-2">Found <span class="text-danger">3</span> results</h5>
+                        </div>
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <span>Test 1</span>
+                        </a>
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <span>Test 2</span>
+                        </a>
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <span>Test 3</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- end Topbar -->
+
+            <!-- Start Content-->
+            <div class="container-fluid p-4">
+
+                <div class="row">
+                    <div class="nav nav-tabs nav-bordered mb-3">
+                        <h3>Shirley Curtis </h3>
+                    </div> <!-- end nav-->
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-body p-2">
+                                        <h4 class="header-title m-2 active">Site Information</h4>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img class="img-fluid" src="../images/check_report.png" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="caption">
+                                                    <p>site Location</p>
+                                                    <h5>9 Centre Street,
+                                                        Culbura Beach NSW 2540</h5>
+                                                    <p>Cheked By</p>
+                                                    <h5>Adrian Fife</h5>
+
+                                                    <p>Checked DATE</p>
+                                                    <h5>October 1, 2021</h5>
+
+                                                    <p>INV/JOB NUMBER</p>
+                                                    <h5>1548-21     J5564</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- end col -->
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="table-responsive">
+                                                    <table class="table table-hover table-centered text-center">
+                                                        <thead>
+
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                            <td>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" class="form-check-input" checked>
+                                                                    <label class="form-check-label" for="customCheck2">Rodent Box 1</label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="check">
+                                                                    <button data-bs-toggle="modal" data-bs-target="#standard-modal" class="btn-outline-light">Update</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="form-check">
+                                                                        <input type="checkbox" class="form-check-input">
+                                                                        <label class="form-check-label" for="customCheck2">Rodent Box 3</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="check">
+                                                                        <button data-toggle="modal" data-target="#update" class="btn-outline-light">Check Station</button>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="form-check">
+                                                                        <input type="checkbox" class="form-check-input">
+                                                                        <label class="form-check-label" for="customCheck2">Rodent Box 5</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="check">
+                                                                        <button data-toggle="modal" data-target="#update" class="btn-outline-light">Check Station</button>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="form-check">
+                                                                        <input type="checkbox" class="form-check-input">
+                                                                        <label class="form-check-label" for="customCheck2">Rodent Box 7</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="check">
+                                                                        <button data-toggle="modal" data-target="#update" class="btn-outline-light">Check Station</button>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="form-check">
+                                                                        <input type="checkbox" class="form-check-input">
+                                                                        <label class="form-check-label" for="customCheck2">Rodent Box 9</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="check">
+                                                                        <button data-toggle="modal" data-target="#update" class="btn-outline-light">Check Station</button>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div> <!-- end table responsive-->
+
+                                                <!-- Standard modal content -->
+                                                <div id="standard-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="standard-modalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="exampleModalLabel">Rodent Box 1</h5>
+                                                                <button class="btn btn-success "> Active</button>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <p>Amount of Ingredient</p>
+                                                                        <div class="input-colors">
+                                                                            <input type="text">
+                                                                            <input type="text">
+                                                                            <input type="text">
+                                                                            <input type="text">
+                                                                        </div>
+
+                                                                        <div class="model-box">
+                                                                            <p class="mt-3">Bait effected by snails </p>
+                                                                            <div class="form-check form-check-inline">
+                                                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                                                <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+                                                                            </div>
+                                                                            <div class="form-check form-check-inline">
+                                                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                                                <label class="form-check-label" for="inlineCheckbox2">No</label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="colors">
+                                                                            <p>Pest Activity:</p>
+                                                                            <span class="badge bg-success text-success">colors</span>
+                                                                            <span>Very low</span>
+                                                                            <span class="badge bg-warning text-warning">colors</span>
+                                                                            <span>Low</span>
+                                                                            <span class="badge medium">colors</span>
+                                                                            <span>Medium</span>
+                                                                            <span class="badge bg-danger text-danger">colors</span>
+                                                                            <span>High</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-outline-light">Station Damage</button>
+                                                                <button type="button" class="btn btn-outline-light">Station Missing</button>
+                                                                <button type="button" class="btn btn-success"><a href="rodentReportsPeterson.html">Submit</a></button>
+                                                            </div>
+                                                        </div><!-- /.modal-content -->
+                                                    </div><!-- /.modal-dialog -->
+                                                </div><!-- /.modal -->
+                                            </div> <!-- end col-->
+                                        </div> <!-- end row-->
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="table-responsive">
+                                                    <table class="table table-hover table-centered text-center">
+                                                        <thead></thead>
+
+                                                        <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" class="form-check-input">
+                                                                    <label class="form-check-label" for="customCheck2">Rodent Box 2</label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="check">
+                                                                    <button data-toggle="modal" data-target="#update" class="btn-outline-light">Update</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" class="form-check-input" id="customCheck2">
+                                                                    <label class="form-check-label" for="customCheck2">Rodent Box 4</label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="check">
+                                                                    <button data-toggle="modal" data-target="#update" class="btn-outline-light">Check Station</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" class="form-check-input" checked>
+                                                                    <label class="form-check-label" for="customCheck2">Update</label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="check">
+                                                                    <button data-toggle="modal" data-target="#update" class="btn-outline-light">Check Station</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" class="form-check-input">
+                                                                    <label class="form-check-label" for="customCheck2">Rodent Box 8</label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="check">
+                                                                    <button data-toggle="modal" data-target="#update" class="btn-outline-light">Check Station</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" class="form-check-input" checked>
+                                                                    <label class="form-check-label" for="customCheck2">Update</label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="check">
+                                                                    <button data-toggle="modal" data-target="#update" class="btn-outline-light">Check Station</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div> <!-- end table responsive-->
+                                            </div> <!-- end col-->
+                                        </div> <!-- end row-->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <img class="img-fluid w-100" src="../images/check_map.png" alt="">
+                                <button class="btn btn-success w-100 my-2">Generate Report</button>
+                                <button class="btn btn-success w-100">Email Report</button>
+                                <button class="btn btn-success w-100 my-2">Upload Report</button>
+                            </div>
+                        </div>
+                    </div> <!-- end col -->
+
+                </div>
+                <!-- end row -->
+
+
+            </div> <!-- container -->
+
+        </div>
+
+    </div>
+    <!-- content -->
+
+</div>
+
+<!-- ============================================================== -->
+<!-- End Page content -->
+<!-- ============================================================== -->
+<!-- END wrapper -->
+
+<!-- Right Sidebar -->
+
+
+
+<!-- Right Sidebar -->
+<div class="end-bar">
+
+    <div class="rightbar-title">
+        <a href="javascript:void(0);" class="end-bar-toggle float-end">
+            <i class="dripicons-cross noti-icon"></i>
+        </a>
+        <h5 class="m-0">Settings</h5>
+    </div>
+
+    <div class="rightbar-content h-100" data-simplebar="">
+
+        <div class="p-3">
+            <div class="alert alert-warning" role="alert">
+                <strong>Customize </strong> the overall color scheme, sidebar menu, etc.
+            </div>
+
+            <!-- Settings -->
+            <h5 class="mt-3">Color Scheme</h5>
+            <hr class="mt-1">
+
+            <div class="form-check form-switch mb-1">
+                <input class="form-check-input" type="checkbox" name="color-scheme-mode" value="light" id="light-mode-check" checked="">
+                <label class="form-check-label" for="light-mode-check">Light Mode</label>
+            </div>
+
+            <div class="form-check form-switch mb-1">
+                <input class="form-check-input" type="checkbox" name="color-scheme-mode" value="dark" id="dark-mode-check">
+                <label class="form-check-label" for="dark-mode-check">Dark Mode</label>
+            </div>
+
+
+            <!-- Width -->
+            <h5 class="mt-4">Width</h5>
+            <hr class="mt-1">
+            <div class="form-check form-switch mb-1">
+                <input class="form-check-input" type="checkbox" name="width" value="fluid" id="fluid-check" checked="">
+                <label class="form-check-label" for="fluid-check">Fluid</label>
+            </div>
+
+            <div class="form-check form-switch mb-1">
+                <input class="form-check-input" type="checkbox" name="width" value="boxed" id="boxed-check">
+                <label class="form-check-label" for="boxed-check">Boxed</label>
+            </div>
+
+
+            <!-- Left Sidebar-->
+            <h5 class="mt-4">Left Sidebar</h5>
+            <hr class="mt-1">
+            <div class="form-check form-switch mb-1">
+                <input class="form-check-input" type="checkbox" name="theme" value="default" id="default-check">
+                <label class="form-check-label" for="default-check">Default</label>
+            </div>
+
+            <div class="form-check form-switch mb-1">
+                <input class="form-check-input" type="checkbox" name="theme" value="light" id="light-check" checked="">
+                <label class="form-check-label" for="light-check">Light</label>
+            </div>
+
+            <div class="form-check form-switch mb-3">
+                <input class="form-check-input" type="checkbox" name="theme" value="dark" id="dark-check">
+                <label class="form-check-label" for="dark-check">Dark</label>
+            </div>
+
+            <div class="form-check form-switch mb-1">
+                <input class="form-check-input" type="checkbox" name="compact" value="fixed" id="fixed-check" checked="">
+                <label class="form-check-label" for="fixed-check">Fixed</label>
+            </div>
+
+            <div class="form-check form-switch mb-1">
+                <input class="form-check-input" type="checkbox" name="compact" value="condensed" id="condensed-check">
+                <label class="form-check-label" for="condensed-check">Condensed</label>
+            </div>
+
+            <div class="form-check form-switch mb-1">
+                <input class="form-check-input" type="checkbox" name="compact" value="scrollable" id="scrollable-check">
+                <label class="form-check-label" for="scrollable-check">Scrollable</label>
+            </div>
+
+            <div class="d-grid mt-4">
+                <button class="btn btn-primary" id="resetBtn">Reset to Default</button>
+
+                <a href="../../index.html" class="btn btn-danger mt-3" target="_blank"><i class="mdi mdi-basket me-1"></i> Purchase Now</a>
+            </div>
+        </div> <!-- end padding-->
+
+    </div>
+</div>
+
+<div class="rightbar-overlay"></div>
+<!-- /End-bar -->
+<!-- bundle -->
+
+<!-- bundle -->
+<script src="../../assets/js/vendor.min.js"></script>
+<script src="../../assets/js/main.js"></script>
+
+<!-- third party js -->
+<script src="../../assets/js/vendor/jquery.dataTables.min.js"></script>
+<script src="../../assets/js/vendor/dataTables.bootstrap5.js"></script>
+<script src="../../assets/js/vendor/dataTables.responsive.min.js"></script>
+<script src="../../assets/js/vendor/responsive.bootstrap5.min.js"></script>
+<script src="../../assets/js/vendor/dataTables.buttons.min.js"></script>
+<script src="../../assets/js/vendor/buttons.bootstrap5.min.js"></script>
+<script src="../../assets/js/vendor/buttons.html5.min.js"></script>
+<script src="../../assets/js/vendor/buttons.flash.min.js"></script>
+<script src="../../assets/js/vendor/buttons.print.min.js"></script>
+<script src="../../assets/js/vendor/dataTables.keyTable.min.js"></script>
+<script src="../../assets/js/vendor/dataTables.select.min.js"></script>
+<!-- third party js ends -->
+
+<!-- demo app -->
+<script src="../../assets/js/pages/demo.datatable-init.js"></script>
+</body>
+</html>
+
+
+
+
+
+
