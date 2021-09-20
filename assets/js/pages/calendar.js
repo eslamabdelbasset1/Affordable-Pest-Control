@@ -81,9 +81,18 @@
                         n = a.$formEvent[0];
                     n.checkValidity()
                         ? (a.$selectedEvent
-                            ? (a.$selectedEvent.setProp("title", l("#event-title").val()), a.$selectedEvent.setProp("classNames", [l("#event-category").val()]))
-                            : ((t = { title: l("#event-title").val(), start: a.$newEventData.date, allDay: a.$newEventData.allDay, className: l("#event-category").val() }), a.$calendarObj.addEvent(t)),
-                            a.$modal.hide())
+                            ? (
+                                a.$selectedEvent.setProp("title", l("#event-title").val()),
+
+
+                                a.$selectedEvent.setProp("classNames", [l("#event-category1").val()]))
+                                : ((t = { title: l("#event-title").val(),
+                                start: a.$newEventData.date, allDay:
+                                a.$newEventData.allDay, className: l("#event-category1").val() }),
+                                a.$calendarObj.addEvent(t)),
+
+
+                        a.$modal.hide())
                         : (e.stopPropagation(), n.classList.add("was-validated"));
                 }),
                 l(

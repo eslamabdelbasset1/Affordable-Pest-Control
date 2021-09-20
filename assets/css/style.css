@@ -94,6 +94,36 @@ body{
     border-radius: 7px;
     text-align: center;
 }
+#modal-title{
+    font-weight: 500;
+    font-size: 22px !important;
+    line-height: 26px;
+    color: #69A200;
+}
+#form-event .row .header{
+    padding: 0 7rem 0 5rem!important
+}
+#form-event > div.modal-body
+{
+    font-size: 16px;
+    line-height: 19px;
+    color: #8F99A4;
+}
+#form-event > div.modal-body > div > h5{
+    font-size: 22px;
+    line-height: 26px;
+    color: #69A200;
+}
+#form-event .modal-body span button{
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+#form-event .modal-body .row.nav-tabs.nav-bordered button:hover
+{
+    color: #fff;
+}
 /*--------------- Calender Model -----------------------*/
 
 
@@ -120,8 +150,8 @@ body{
     user-select: none;
 }
 
-.inbox-widget .user-id {
-    font-size: 10px;
+.inbox-widget .inbox-item .inbox-item-text{
+    font-size: 14px;
 }
 .inbox-widget .btn-outline-light
 {
@@ -178,6 +208,25 @@ body{
 {
     border-radius: 5px;
     border: 2px solid #69A200;
+}
+.inbox-widget .inbox-item .inbox-item-author{
+    font-size: 18px;
+    font-weight: 900;
+}
+.wrapper .content-page .container-fluid table-responsive table thead th
+{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #868B8F;
+}
+.wrapper .content-page .container-fluid .table-responsive table tbody tr td
+{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #292929;
 }
 /*--------------- End Staff Location ------------------------*/
 
@@ -316,7 +365,7 @@ i.fa-share-alt{
     font-size: 14px;
 }
 .wrapper .content-page .container-fluid h5 {
-    font-size: 13px;
+    font-size: 13px !important;
     color: #292929;
 }
 
