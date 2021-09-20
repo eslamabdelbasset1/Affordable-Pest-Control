@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+    <head>
     <meta charset="utf-8">
     <!--<title> Affordable Pest Control </title>-->
     <title>Rodent Reports</title>
@@ -16,22 +16,22 @@
     <link rel="stylesheet" href="../../assets/css/all.min.css">
     <!-- third party css -->
     <!-- third party css -->
+    <link href="../../assets/css/vendor/dataTables.bootstrap5.css" rel="stylesheet" type="text/css">
     <link href="../../assets/css/vendor/responsive.bootstrap5.css" rel="stylesheet" type="text/css">
     <link href="../../assets/css/vendor/buttons.bootstrap5.css" rel="stylesheet" type="text/css">
     <link href="../../assets/css/vendor/select.bootstrap5.css" rel="stylesheet" type="text/css">
     <!-- third party css end -->
-    <!-- third party css -->
-    <link href="../../assets/css/vendor/fullcalendar.min.css" rel="stylesheet" type="text/css">
-    <!-- third party css end -->
+
     <!-- App css -->
     <link href="../../assets/css/icons.min.css" rel="stylesheet" type="text/css">
     <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="light-style">
     <link href="../../assets/css/bootstrap-dark.min.css" rel="stylesheet" type="text/css" id="dark-style">
     <link href="../../assets/css/style.css" rel="stylesheet" type="text/css">
     <link href="../../assets/css/vendor/staffStyle.css" rel="stylesheet" type="text/css">
+    <link href="../../assets/css/responsive.css" rel="stylesheet" type="text/css">
 </head>
 
-<body class="loading"
+    <body class="loading"
       data-layout-config='{"leftSideBarTheme":"dark","layoutBoxed":false, "leftSidebarCondensed":false,
           "leftSidebarScrollable":false,"darkMode":false, "showRightSidebarOnStart": true}'>
 <!-- Begin page -->
@@ -67,7 +67,7 @@
                 <li class="side-nav-title side-nav-item">MAIN MENU</li>
 
                 <li class="side-nav-item">
-                    <a data-bs-toggle="collapse" href="#sidebarDashboards" aria-expanded="false" aria-controls="sidebarDashboards" class="side-nav-link">
+                    <a href="../../index.html" class="side-nav-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">&ndash;&gt;-->
                             <path d="M5.78125 0H1.09375C0.490625 0 0 0.490625 0 1.09375V3.90625C0 4.50938 0.490625 5 1.09375 5H5.78125C6.38438 5 6.875 4.50938 6.875 3.90625V1.09375C6.875 0.490625 6.38438 0 5.78125 0Z" fill="#929292"/>
                             <path d="M5.78125 6.25H1.09375C0.490625 6.25 0 6.74063 0 7.34375V13.9062C0 14.5094 0.490625 15 1.09375 15H5.78125C6.38438 15 6.875 14.5094 6.875 13.9062V7.34375C6.875 6.74063 6.38438 6.25 5.78125 6.25Z" fill="#929292"/>
@@ -79,7 +79,7 @@
                 </li>
 
                 <li class="side-nav-item">
-                    <a href="../../index.html" class="side-nav-link">
+                    <a data-bs-toggle="collapse" href="#sidebarStaff" aria-expanded="false" aria-controls="sidebarDashboards" class="side-nav-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 14 17" fill="none">-->
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8333 0.333313H11.6667V0.916646C11.6667 1.88148 10.8815 2.66665 9.91667 2.66665H4.08333C3.1185 2.66665 2.33333 1.88148 2.33333 0.916646V0.333313H1.16667C0.523833 0.333313 0 0.857146 0 1.49998V15.5C0 16.1545 0.512167 16.6666 1.16667 16.6666H12.8333C13.4878 16.6666 14 16.1545 14 15.5V1.49998C14 0.84548 13.4878 0.333313 12.8333 0.333313ZM7 4.99998C8.28683 4.99998 9.33333 6.04648 9.33333 7.33331C9.33333 8.62015 8.28683 9.66665 7 9.66665C5.71317 9.66665 4.66667 8.62015 4.66667 7.33331C4.66667 6.04648 5.71317 4.99998 7 4.99998ZM11.0833 14.3333C11.4053 14.3333 11.6667 14.072 11.6667 13.75V12.5833C11.6667 12.3815 11.5628 12.1948 11.3913 12.0875C8.68467 10.4051 5.31883 10.404 2.60867 12.0875C2.43717 12.1948 2.33333 12.3815 2.33333 12.5833V13.75C2.33333 14.072 2.59467 14.3333 2.91667 14.3333H11.0833Z" fill="#939DA7"/>
                         </svg>
@@ -88,7 +88,7 @@
                     </a>
                     <div class="collapse" id="sidebarStaff">
                         <ul class="side-nav-second-level">
-                            <li><a >All Staff</a></li>
+                            <li><a>All Staff</a></li>
                             <li><a href="staffLocations.html">Staff Locations</a></li>
                         </ul>
                     </div>
@@ -122,7 +122,7 @@
                 </li>
 
                 <li class="side-nav-item">
-                    <a class="side-nav-link">
+                    <a class="side-nav-link" href="roster-calender.html">
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">-->
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M1.71875 0H13.2812C14.2294 0 15 0.770625 15 1.71875V13.2812C15 14.2294 14.2294 15 13.2812 15H1.71875C0.770625 15 0 14.2294 0 13.2812V1.71875C0 0.770625 0.770625 0 1.71875 0ZM5 10.625H10C10.3456 10.625 10.625 10.345 10.625 10C10.625 9.655 10.3456 9.375 10 9.375H5C4.65438 9.375 4.375 9.655 4.375 10C4.375 10.345 4.65438 10.625 5 10.625ZM10 8.125H5C4.65438 8.125 4.375 7.845 4.375 7.5C4.375 7.155 4.65438 6.875 5 6.875H10C10.3456 6.875 10.625 7.155 10.625 7.5C10.625 7.845 10.3456 8.125 10 8.125ZM5 5.625H10C10.3456 5.625 10.625 5.345 10.625 5C10.625 4.655 10.3456 4.375 10 4.375H5C4.65438 4.375 4.375 4.655 4.375 5C4.375 5.345 4.65438 5.625 5 5.625Z" fill="#939DA7"/>
                         </svg>
@@ -414,273 +414,207 @@
 
 
             <!-- Start Content-->
-            <div class="container-fluid">
+            <div class="container-fluid my-4">
                 <div class="row">
                     <div class="col-12">
-                        <div class="card mt-3">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-lg-1">
-                                        <div class="d-grid">
-                                            <button class="btn btn-lg font-16 btn-danger" id="btn-new-event">
-                                                <i class="mdi mdi-plus-circle-outline"></i>
-                                            </button>
-                                        </div>
-                                        <div id="external-events" class="m-t-20">
-                                        </div>
-
-                                    </div> <!-- end col-->
-
-                                    <div class="col-lg-11">
-                                        <div class="mt-4 mt-lg-0">
-                                            <div id="calendar"></div>
-                                        </div>
-                                    </div> <!-- end col -->
-
-                                </div> <!-- end row -->
-                            </div> <!-- end card body-->
-                        </div> <!-- end card -->
-
-
-
-                        <!-- Add New Event MODAL -->
-                        <div id="event-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog modal-right modal-lg">
-                                <div class="modal-content">
-                                    <form class="needs-validation" name="event-form" id="form-event" novalidate="">
-                                        <div class="modal-header border-0">
-                                            <button type="button" class="btn btn-danger mt-4" id="btn-delete-event">Delete</button>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-12 p-5">
-                                                <h5 class="modal-title activeColor my-2">Select Job Type</h5>
-    <!--                                                id="modal-title"-->
-                                                    <select class="form-select form-control w-100" name="" id="event-category1" required="">
-                                                        <option value="#" selected="">Residential Job</option>
-                                                        <option value="#">test</option>
-                                                        <option value="#">test</option>
-                                                        <option value="#">test</option>
-                                                    </select>
-                                                </div>
-
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <h5 class="modal-title activeColor nav-tabs nav-bordered my-2">Create Residential Job</h5>
-
-                                                <p>Client Information</p>
-                                                <div class="row">
-                                                    <div class="col-sm-12">
-                                                        <div class="row">
-                                                            <div class="col-sm-4">
-                                                                <div class="mb-3">
-                                                                    <input class="form-control" type="text" required="" placeholder="First name*">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-4">
-                                                                <div class="mb-3">
-                                                                    <input class="form-control" type="text" required="" placeholder="Last name*">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-4">
-                                                                <div class="mb-3">
-                                                                    <input class="form-control" type="email" required="" placeholder="Email">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-12">
-                                                        <div class="mb-3">
-                                                            <input class="form-control" type="text" required="" placeholder="Address*">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-12 nav-tabs nav-bordered">
-                                                        <div class="row">
-                                                            <div class="col-sm-4">
-                                                                <div class="mb-3">
-                                                                    <input class="form-control" type="text" required="" placeholder="Suburb*">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-4">
-                                                                <div class="mb-3">
-                                                                    <input class="form-control" type="number" required="" placeholder="Land line">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-4">
-                                                                <div class="mb-3">
-                                                                    <input class="form-control" type="number" required="" placeholder="Mobile number">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-sm-12 nav-tabs nav-bordered mt-3">
-                                                        <p>Job Detail</p>
-                                                        <div class="row">
-                                                            <div class="col-sm-4">
-                                                                <div class="mb-3">
-                                                                    <input class="form-control" type="date" required="" placeholder="Thusday, October 1">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-4">
-                                                                <div class="mb-3">
-                                                                    <input class="form-control" type="time" required="" placeholder="08:00">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-4">
-                                                                <div class="mb-3">
-                                                                    <input class="form-control" type="time" required="" placeholder="09:00">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="row">
-                                                            <div class="col-sm-12 my-3">
-                                                            <span>Attending Tech:
-                                                                 <button class="btn btn-primary activeBackground">
-                                                                    Brandon Howard
-                                                                    <i class="fas fa-times"></i>
-                                                                </button>
-                                                            </span>
-                                                            </div>
-                                                            <div class="col-sm-12">
-                                                                <div class="row">
-                                                                    <div class="col-md-12">
-                                                                        <div class="row">
-                                                                            <div class="col-sm-4">
-                                                                                <div class="mb-3">
-                                                                                    <input class="form-control" type="text" required="" placeholder="J1169">
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="col-sm-4">
-                                                                                <div class="mb-3">
-                                                                                    <input class="form-control" type="text" required="" placeholder="Cost">
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="col-sm-4">
-                                                                                <div class="mb-3">
-                                                                                    <input class="form-control" type="text" required="" placeholder="Invoice Number">
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-12">
-                                                                        <div class="mb-3">
-                                                                            <input class="form-control" type="text" required="" placeholder="Service Notes">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-sm-12 nav-tabs nav-bordered mt-3">
-                                                        <p>Job Problem</p>
-                                                        <div class="row">
-                                                            <div class="col-sm-12">
-                                                                <div class="mb-3">
-                                                                    <select class="form-select form-control w-100" name="" id="event-category2" required="">
-                                                                        <option value="#" selected="">Active Fleas</option>
-                                                                        <option value="#">test</option>
-                                                                        <option value="#">test</option>
-                                                                        <option value="#">test</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-12">
-                                                                <div class="mb-3">
-                                                                    <select class="form-select form-control w-100" name="" id="jobProblem2" required="">
-                                                                        <option value="#" selected="">Certificates Required</option>
-                                                                        <option value="#">test</option>
-                                                                        <option value="#">test</option>
-                                                                        <option value="#">test</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-12">
-                                                                <div class="mb-3">
-                                                                    <select class="form-select form-control w-100" name="" id="jobProblem3" required="">
-                                                                        <option value="#" selected="">Report Required</option>
-                                                                        <option value="#">test</option>
-                                                                        <option value="#">test</option>
-                                                                        <option value="#">test</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="row nav-tabs nav-bordered mt-3">
-                                                        <div class="col-md-8 mb-3 border-2">
-                                                            <div class="row">
-                                                                <div class="col-sm-6">
-                                                                    <button class="btn btn-primary activeBackground">
-                                                                        Inside Spraying
-                                                                        <i class="fas fa-times"></i>
-                                                                    </button>
-                                                                </div>
-                                                                <div class="col-sm-6">
-                                                                    <button class="btn btn-primary activeBackground">
-                                                                        Inside Spraying
-                                                                        <i class="fas fa-times"></i>
-                                                                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-4 mb-3">
-                                                            <button class="btn btn-primary activeColor">
-                                                                <i class="fas fa-plus"></i>
-                                                                Add Service
-                                                            </button>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="row">
-                                                        <div class="col-sm-12">
-                                                            <table class="table table-bordered table-centered mb-0 text-center my-3">
-                                                                <thead>
-                                                                <tr>
-                                                                    <th class="activeColor">Problem</th>
-                                                                    <th class="activeColor">Services</th>
-                                                                    <th class="activeColor">Action</th>
-                                                                </tr>
-                                                                </thead>
-                                                                <tbody>
-                                                                <tr>
-                                                                    <td>Active Fleas</td>
-                                                                    <td>Inside Spraying, Yard Spraying,
-                                                                        Heavy Subfloor Dusting</td>
-                                                                    <td>
-                                                                        <i class="far fa-trash-alt text-danger"> Delete</i>
-                                                                    </td>
-                                                                </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </div>
-
-                                                        <div class="row">
-                                                            <div class="d-flex justify-content-between mt-3">
-                                                                <button type="button" data-bs-dismiss="modal" class="btn btn-light">Close</button>
-                                                                <button class="btn btn-success" id="btn-save-event">Create Event</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
+                        <div class="card p-3">
+                            <div class="row mb-2">
+                                <div class="col-sm-4">
+                                    <h3>Termite Inspection Reports</h3>
                                 </div>
+                                <div class="col-sm-8">
+                                    <div class="text-sm-end">
+                                        <a href="javascript: void(0);" class="btn btn-primary mb-2">
+                                            <i class="mdi mdi-autorenew"></i>
+                                        </a>
+                                        <a href="javascript:void(0);" class="btn btn-outline-light activeBackground mb-2">
+                                            <i class="mdi mdi-plus-circle"></i> Add Products
+                                        </a>
+                                    </div>
+                                </div><!-- end col-->
+                            </div>
 
-                                <!-- /.modal-content -->
-                            </div><!-- /.modal-dialog -->
-                        </div><!-- /.modal -->
+                            <div class="card-body">
+                                <ul class="nav nav-tabs nav-bordered mb-3">
+                                    <li class="nav-item">
+                                        <a href="#basic-datatable-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                            Rodent Reports
+                                        </a>
+                                    </li>
+                                </ul> <!-- end nav-->
+                                <div class="tab-content">
+                                    <div class="tab-pane show active" id="basic-datatable-preview">
+                                        <table id="basic-datatable" class="table dt-responsive nowrap font-16 text-center">
+                                            <thead>
+                                            <tr>
+                                                <th>Date of Job</th>
+                                                <th>Client Name</th>
+                                                <th>Last Cheked By</th>
+                                                <th>Report Completed By</th>
+                                                <th>Report Cheked By</th>
+                                                <th>UPLOADED  Date</th>
+                                                <th></th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                <td>
+                                                    <p class="m-0 d-inline-block align-middle font-16">
+                                                        <a href="" class="text-body">October 1, 2021</a>
+                                                    </p>
+                                                </td>
+                                                <td>Diane Noble</td>
+                                                <td>Cullbura Beach NSW 2540</td>
+                                                <td>Laura - Dec 1, 2021</td>
+                                                <td>-</td>
+                                                <td>October 1, 2021</td>
+                                                <td class="">
+                                                    <div class="dropdown">
+                                                        <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
+                                                            <i class="fas fa-ellipsis-h"></i>
+                                                        </a>
+                                                        <div class="dropdown-menu dropdown-menu-end">
+                                                            <!-- item-->
+                                                            <a href="termiteReportEdit.html" class="dropdown-item action-icon"><i class="far fa-edit"> Edit Report</i></a>
+                                                            <!-- item-->
+                                                            <a href="javascript:void(0);" class="dropdown-item action-icon"><i class="far fa-eye"> Check Rodent Report</i></a>
+                                                            <!-- item-->
+                                                            <a href="javascript:void(0);" class="dropdown-item action-icon"><i class="far fa-envelope"> Send Rodent Report</i></a>
+                                                            <!-- item-->
+                                                            <a href="javascript:void(0);" class="dropdown-item action-icon"><i class="far fa-trash-alt"> Delete Rodent Report</i></a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="m-0 d-inline-block align-middle font-16">
+                                                            <a href="" class="text-body">October 1, 2021</a>
+                                                        </p>
+                                                    </td>
+                                                    <td>Diane Noble</td>
+                                                    <td>Cullbura Beach NSW 2540</td>
+                                                    <td>Laura - Dec 1, 2021</td>
+                                                    <td>-</td>
+                                                    <td>October 1, 2021</td>
+                                                    <td class="">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                <i class="fas fa-ellipsis-h"></i>
+                                                            </a>
+                                                            <div class="dropdown-menu dropdown-menu-end">
+                                                                <!-- item-->
+                                                                <a href="termiteReportEdit.html" class="dropdown-item action-icon"><i class="far fa-edit"> Edit Report</i></a>
+                                                                <!-- item-->
+                                                                <a href="javascript:void(0);" class="dropdown-item action-icon"><i class="far fa-eye"> Check Rodent Report</i></a>
+                                                                <!-- item-->
+                                                                <a href="javascript:void(0);" class="dropdown-item action-icon"><i class="far fa-envelope"> Send Rodent Report</i></a>
+                                                                <!-- item-->
+                                                                <a href="javascript:void(0);" class="dropdown-item action-icon"><i class="far fa-trash-alt"> Delete Rodent Report</i></a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="m-0 d-inline-block align-middle font-16">
+                                                            <a href="" class="text-body">October 1, 2021</a>
+                                                        </p>
+                                                    </td>
+                                                    <td>Diane Noble</td>
+                                                    <td>Cullbura Beach NSW 2540</td>
+                                                    <td>Laura - Dec 1, 2021</td>
+                                                    <td>-</td>
+                                                    <td>October 1, 2021</td>
+                                                    <td class="">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                <i class="fas fa-ellipsis-h"></i>
+                                                            </a>
+                                                            <div class="dropdown-menu dropdown-menu-end">
+                                                                <!-- item-->
+                                                                <a href="termiteReportEdit.html" class="dropdown-item action-icon"><i class="far fa-edit"> Edit Report</i></a>
+                                                                <!-- item-->
+                                                                <a href="javascript:void(0);" class="dropdown-item action-icon"><i class="far fa-eye"> Check Rodent Report</i></a>
+                                                                <!-- item-->
+                                                                <a href="javascript:void(0);" class="dropdown-item action-icon"><i class="far fa-envelope"> Send Rodent Report</i></a>
+                                                                <!-- item-->
+                                                                <a href="javascript:void(0);" class="dropdown-item action-icon"><i class="far fa-trash-alt"> Delete Rodent Report</i></a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="m-0 d-inline-block align-middle font-16">
+                                                            <a href="" class="text-body">October 1, 2021</a>
+                                                        </p>
+                                                    </td>
+                                                    <td>Diane Noble</td>
+                                                    <td>Cullbura Beach NSW 2540</td>
+                                                    <td>Laura - Dec 1, 2021</td>
+                                                    <td>-</td>
+                                                    <td>October 1, 2021</td>
+                                                    <td class="">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                <i class="fas fa-ellipsis-h"></i>
+                                                            </a>
+                                                            <div class="dropdown-menu dropdown-menu-end">
+                                                                <!-- item-->
+                                                                <a href="termiteReportEdit.html" class="dropdown-item action-icon"><i class="far fa-edit"> Edit Report</i></a>
+                                                                <!-- item-->
+                                                                <a href="javascript:void(0);" class="dropdown-item action-icon"><i class="far fa-eye"> Check Rodent Report</i></a>
+                                                                <!-- item-->
+                                                                <a href="javascript:void(0);" class="dropdown-item action-icon"><i class="far fa-envelope"> Send Rodent Report</i></a>
+                                                                <!-- item-->
+                                                                <a href="javascript:void(0);" class="dropdown-item action-icon"><i class="far fa-trash-alt"> Delete Rodent Report</i></a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="m-0 d-inline-block align-middle font-16">
+                                                            <a href="" class="text-body">October 1, 2021</a>
+                                                        </p>
+                                                    </td>
+                                                    <td>Diane Noble</td>
+                                                    <td>Cullbura Beach NSW 2540</td>
+                                                    <td>Laura - Dec 1, 2021</td>
+                                                    <td>-</td>
+                                                    <td>October 1, 2021</td>
+                                                    <td class="">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                <i class="fas fa-ellipsis-h"></i>
+                                                            </a>
+                                                            <div class="dropdown-menu dropdown-menu-end">
+                                                                <!-- item-->
+                                                                <a href="termiteReportEdit.html" class="dropdown-item action-icon"><i class="far fa-edit"> Edit Report</i></a>
+                                                                <!-- item-->
+                                                                <a href="javascript:void(0);" class="dropdown-item action-icon"><i class="far fa-eye"> Check Rodent Report</i></a>
+                                                                <!-- item-->
+                                                                <a href="javascript:void(0);" class="dropdown-item action-icon"><i class="far fa-envelope"> Send Rodent Report</i></a>
+                                                                <!-- item-->
+                                                                <a href="javascript:void(0);" class="dropdown-item action-icon"><i class="far fa-trash-alt"> Delete Rodent Report</i></a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
 
-                    </div>
-                    <!-- end col-12 -->
-                </div> <!-- end row -->
+                                            </tbody>
+                                        </table>
+                                    </div> <!-- end preview-->
 
-            </div> <!-- container -->
+                                </div> <!-- end preview code-->
+                            </div> <!-- end tab-content-->
+
+                        </div> <!-- end card body-->
+                    </div> <!-- end card -->
+                </div><!-- end col-->
+            </div>
+            <!-- end row-->
         </div> <!-- container -->
 
     </div>
@@ -794,16 +728,21 @@
 <script src="../../assets/js/main.js"></script>
 
 <!-- third party js -->
-<script src="../../assets/js/vendor/fullcalendar.min.js"></script>
+<script src="../../assets/js/vendor/jquery.dataTables.min.js"></script>
+<script src="../../assets/js/vendor/dataTables.bootstrap5.js"></script>
+<script src="../../assets/js/vendor/dataTables.responsive.min.js"></script>
+<script src="../../assets/js/vendor/responsive.bootstrap5.min.js"></script>
+<script src="../../assets/js/vendor/dataTables.buttons.min.js"></script>
+<script src="../../assets/js/vendor/buttons.bootstrap5.min.js"></script>
+<script src="../../assets/js/vendor/buttons.html5.min.js"></script>
+<script src="../../assets/js/vendor/buttons.flash.min.js"></script>
+<script src="../../assets/js/vendor/buttons.print.min.js"></script>
+<script src="../../assets/js/vendor/dataTables.keyTable.min.js"></script>
+<script src="../../assets/js/vendor/dataTables.select.min.js"></script>
 <!-- third party js ends -->
 
 <!-- demo app -->
-<script src="../../assets/js/pages/calendar.js"></script>
+<script src="../../assets/js/pages/demo.datatable-init.js"></script>
 </body>
 </html>
-
-
-
-
-
 
