@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Calibri' !important;
+    font-size: 16px;
 }
 /*------------------ Active ------------- ----------*/
 .activeColor{color: #69A200 !important;}
@@ -23,7 +24,8 @@ body{
 
 /*--------------- Sidebar----------------*/
 
-.side-nav .side-nav-link span
+.side-nav .side-nav-link span,
+.side-nav .side-nav-second-level li a
 {
     font-size: 18px;
     line-height: 36px;
@@ -36,10 +38,39 @@ body{
     line-height: 16px;
 }
 
+.wrapper .content-page .container-fluid .user-wrapper.d-flex h4.user-name{
+    font-size: 26px;
+    line-height: 31px;
+}
+.wrapper .content-page .container-fluid .user-wrapper.d-flex h4.user-name b{
+    color: #292929;
+}
+.wrapper .content-page .container-fluid .user-wrapper.d-flex p.user-body,
+.nav-user .account-user-name
+{
+    font-size: 18px;
+    line-height: 22px;
+}
+.wrapper .content-page .container-fluid h5{
+    font-size: 35px !important;
+    color: #000;
+}
+.widget-flat h5 i{
+    font-size: 12px !important;
+}
 
-
-
-
+.card .header-title{
+    font-size: 22px;
+    line-height: 26px;
+    color: #292929;
+}
+.side-nav .side-nav-second-level li a:hover{
+    color: #69A200;
+}
+.wrapper .content-page .container-fluid .widget-flat .float-end svg
+{
+    margin-top: 13px;
+}
 
 
 
