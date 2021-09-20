@@ -1,4 +1,16 @@
-/*------------------ Active -----------------------*/
+@font-face {
+    font-family: 'Calibri';
+    src: url('../../assets/css/Calibri-Light.woff2') format('woff2'),
+    url('../../assets/css/Calibri-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: 'Calibri' !important;
+}
+/*------------------ Active ------------- ----------*/
 .activeColor{color: #69A200 !important;}
 .activeColor:hover{color: #939DA7 !important;}
 .activeBackground{
@@ -7,6 +19,35 @@
     color: #fff;
 }
 /*------------------------------------------------*/
+
+
+/*--------------- Sidebar----------------*/
+
+.side-nav .side-nav-link span
+{
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.side-nav .side-nav-link span.badge
+{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*--------------- Calender Model -----------------------*/
 #calenderModel .modal.show .modal-left, .modal.show .modal-right{
