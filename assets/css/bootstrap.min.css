@@ -5021,7 +5021,7 @@ textarea.form-control-lg {
     .modal-fullscreen-sm-down .modal-header {
         border-radius: 0;
     }
-    .modal-fullscreen-sm-down .modal-body {
+    .modal-fullscreen-sm-down .modal-body.dropzone {
         overflow-y: auto;
     }
     .modal-fullscreen-sm-down .modal-footer {
