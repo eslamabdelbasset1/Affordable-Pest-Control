@@ -10,6 +10,7 @@
 body{
     font-family: 'Calibri' !important;
     font-size: 16px;
+    background: #F2F2F2;
 }
 /*------------------ Active ------------- ----------*/
 .activeColor{color: #69A200 !important;}
@@ -103,7 +104,7 @@ body{
 #form-event .row .header{
     padding: 0 7rem 0 5rem!important
 }
-#form-event > div.modal-body
+#form-event .modal-body
 {
     font-size: 16px;
     line-height: 19px;
@@ -341,6 +342,70 @@ body{
 }
 /*------------------------End Model ---------------------------*/
 
+/*-------------------------- Start  -------------------------*/
+
+.wrapper .content-page .container-fluid.p-4 .row.nav-tabs.nav-bordered.mb-3 .col-md-6.icons  button:hover
+{
+    background: #69A200;
+    border-color: #69A200;
+    color: #fff !important;
+}
+
+.wrapper .content-page .container-fluid .client-img i
+{
+    position: absolute;
+    bottom: 15%;
+    left: 80%;
+    padding: 13px;
+    background: #69A200;
+    box-shadow: 0 12px 30px rgba(105, 162, 0, 0.6);
+    border-radius: 50%;
+    color: #FFFFFF;
+}
+.wrapper .content-page .container-fluid .clientInformatio-right button{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 30%;
+    margin-left: 12px;
+    color: #69A200;
+    background: #FFFFFF;
+    border: 1px solid #69A200;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.wrapper .content-page .container-fluid .clientInformatio-right button.advice
+{
+    padding: 10px 25px;
+}
+.wrapper .content-page .container-fluid .clientInformatio-right button:hover,
+.wrapper .content-page .container-fluid .clientInformatio-right svg:hover
+{
+    background: #69A200;
+    border-color: #69A200;
+    color: #fff;
+}
+.wrapper .content-page .container-fluid .clientInformatio-right button:hover svg
+{
+    background: #fff !important;
+}
+
+.wrapper .content-page .container-fluid .clientInformatio-left p
+{
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #868B8F;
+
+}
+.wrapper .content-page .container-fluid .clientInformatio-left h5
+{
+    font-weight: 900;
+    font-size: 18px !important;
+    line-height: 22px;
+    color: #292929;
+}
+/*-----------------------------------------------------------*/
 
 /*------------------ Report ---------------------------*/
 
