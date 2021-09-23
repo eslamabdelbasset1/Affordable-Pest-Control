@@ -12098,7 +12098,6 @@ body[data-layout=topnav] .container-fluid, body[data-layout=topnav] .container-l
 }
 .card .header-title {
     margin-bottom: .5rem;
-    text-transform: uppercase;
     letter-spacing: .02em;
     font-size: .9rem;
     margin-top: 0;
