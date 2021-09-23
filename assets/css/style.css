@@ -18,7 +18,7 @@ body{
 .activeBackground{
     background: #69A200 !important;
     border: 1px solid #69A200 !important;
-    color: #fff;
+    color: #fff !important;
 }
 /*------------------------------------------------*/
 
@@ -343,6 +343,13 @@ body{
 /*------------------------End Model ---------------------------*/
 
 /*-------------------------- Start  -------------------------*/
+.wrapper .content-page .container-fluid .card h5.paragraph
+{
+    font-weight: 900;
+    font-size: 18px !important;
+    line-height: 22px;
+    color: #292929;
+}
 
 .wrapper .content-page .container-fluid.p-4 .row.nav-tabs.nav-bordered.mb-3 .col-md-6.icons button:hover
 {
@@ -362,7 +369,8 @@ body{
     border-radius: 50%;
     color: #FFFFFF;
 }
-.wrapper .content-page .container-fluid .clientInformatio-right button{
+.wrapper .content-page .container-fluid .clientInformatio-right button
+{
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
@@ -375,9 +383,15 @@ body{
     border-radius: 8px;
 
 }
+
 .wrapper .content-page .container-fluid .clientInformatio-right button a{
     color: #69A200;
     font-size: 14px;
+    color: #69A200;
+}
+.wrapper .content-page .container-fluid .clientInformatio-right button:hover a
+{
+    color: #fff;
 }
 .wrapper .content-page .container-fluid .clientInformatio-right button.advice
 {
@@ -389,10 +403,6 @@ body{
     background: #69A200;
     border-color: #69A200;
     color: #fff;
-}
-.wrapper .content-page .container-fluid .clientInformatio-right button:hover svg
-{
-    background: #fff !important;
 }
 
 .wrapper .content-page .container-fluid .clientInformatio-left p
@@ -411,12 +421,19 @@ body{
     color: #292929;
 }
 
-#clientModal > div > div > div.modal-footer.float-right > button.btn.btn-success.activeBackground
+#clientModal  .modal-footer.float-right button.btn.btn-success.activeBackground
 {
     font-size: 18px !important;
     padding: 14px;
 }
 
+body > div.wrapper > div.content-page > div > div.container-fluid.p-4 > div.row > div.col-md-10 > div > div > div > div > div:nth-child(3) > div.col-sm-12.mt-3 > p:nth-child(2) > span
+{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 18px;
+    color: #292929;
+}
 /*-----------------------------------------------------------*/
 
 /*------------------ Report ---------------------------*/
