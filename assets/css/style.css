@@ -110,7 +110,7 @@ body{
     line-height: 19px;
     color: #8F99A4;
 }
-#form-event > div.modal-body > div > h5{
+#form-event > div.modal-body h5{
     font-size: 22px;
     line-height: 26px;
     color: #69A200;
@@ -344,7 +344,7 @@ body{
 
 /*-------------------------- Start  -------------------------*/
 
-.wrapper .content-page .container-fluid.p-4 .row.nav-tabs.nav-bordered.mb-3 .col-md-6.icons  button:hover
+.wrapper .content-page .container-fluid.p-4 .row.nav-tabs.nav-bordered.mb-3 .col-md-6.icons button:hover
 {
     background: #69A200;
     border-color: #69A200;
@@ -354,8 +354,8 @@ body{
 .wrapper .content-page .container-fluid .client-img i
 {
     position: absolute;
-    bottom: 15%;
-    left: 80%;
+    bottom: 25%;
+    left: 75%;
     padding: 13px;
     background: #69A200;
     box-shadow: 0 12px 30px rgba(105, 162, 0, 0.6);
@@ -373,10 +373,15 @@ body{
     border: 1px solid #69A200;
     box-sizing: border-box;
     border-radius: 8px;
+
+}
+.wrapper .content-page .container-fluid .clientInformatio-right button a{
+    color: #69A200;
+    font-size: 14px;
 }
 .wrapper .content-page .container-fluid .clientInformatio-right button.advice
 {
-    padding: 10px 25px;
+    padding: 10px 38px;
 }
 .wrapper .content-page .container-fluid .clientInformatio-right button:hover,
 .wrapper .content-page .container-fluid .clientInformatio-right svg:hover
@@ -405,6 +410,13 @@ body{
     line-height: 22px;
     color: #292929;
 }
+
+#clientModal > div > div > div.modal-footer.float-right > button.btn.btn-success.activeBackground
+{
+    font-size: 18px !important;
+    padding: 14px;
+}
+
 /*-----------------------------------------------------------*/
 
 /*------------------ Report ---------------------------*/
