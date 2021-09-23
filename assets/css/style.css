@@ -374,28 +374,39 @@ body{
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
-    margin-bottom: 30%;
+    margin-bottom: 10%;
     margin-left: 12px;
     color: #69A200;
     background: #FFFFFF;
     border: 1px solid #69A200;
     box-sizing: border-box;
     border-radius: 8px;
-
+    padding: 15px 50px
 }
 
 .wrapper .content-page .container-fluid .clientInformatio-right button a{
     color: #69A200;
     font-size: 14px;
-    color: #69A200;
 }
 .wrapper .content-page .container-fluid .clientInformatio-right button:hover a
 {
     color: #fff;
 }
+.wrapper .content-page .container-fluid .clientInformatio-right button.client
+{
+    padding: 10px 48px;
+}
+.wrapper .content-page .container-fluid .clientInformatio-right button.agreement
+{
+    padding: 15px 44px
+}
+.wrapper .content-page .container-fluid .clientInformatio-right button.overall
+{
+    padding: 5px 44px
+}
 .wrapper .content-page .container-fluid .clientInformatio-right button.advice
 {
-    padding: 10px 25px;
+    padding: 15px 60px;
 }
 .wrapper .content-page .container-fluid .clientInformatio-right button:hover,
 .wrapper .content-page .container-fluid .clientInformatio-right svg:hover
@@ -427,7 +438,7 @@ body{
     padding: 14px;
 }
 
-body > div.wrapper > div.content-page > div > div.container-fluid.p-4 > div.row > div.col-md-10 > div > div > div > div > div:nth-child(3) > div.col-sm-12.mt-3 > p:nth-child(2) > span
+.wrapper .content-page .container-fluid.p-4 .row .col-md-10 .col-sm-12.mt-3 p span
 {
     font-weight: 900;
     font-size: 16px;
@@ -467,6 +478,15 @@ body > div.wrapper > div.content-page > div > div.container-fluid.p-4 > div.row 
     box-sizing: border-box;
     border-radius: 8px;
 }
+.wrapper div.content-page .container-fluid .buttons-right button.btn-outline-success a{
+    color: #ffffff;
+    font-size: 14px;
+}
+.wrapper div.content-page .container-fluid .buttons-right button.btn-outline-success:hover a
+{
+    color: #69A200;
+}
+
 .wrapper div.content-page .container-fluid .buttons-right button.agreement{
     padding: 20px 40px 20px 22px !important;
 }
@@ -478,7 +498,7 @@ body > div.wrapper > div.content-page > div > div.container-fluid.p-4 > div.row 
 }
 
 .wrapper div.content-page .container-fluid .buttons-right button.btn-outline-success:hover,
-.wrapper div.content-page .container-fluid .buttons-right button svg:hover
+.wrapper div.content-page .container-fluid .buttons-right button.btn-outline-success svg:hover
 {
     background: #69A200;
     border-color: #69A200;
@@ -489,7 +509,10 @@ body > div.wrapper > div.content-page > div > div.container-fluid.p-4 > div.row 
     top: 10%;
     left: 40%;
 }
-
+.wrapper .content-page .container-fluid.p-4 .col-md-9 .card-footer.d-flex.justify-content-end button.btn.btn-default
+{
+    margin-right: 10px !important;
+}
 /*-------------------------------- End Report -------------------*/
 
 
