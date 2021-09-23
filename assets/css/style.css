@@ -408,6 +408,10 @@ body{
 {
     padding: 15px 60px;
 }
+.wrapper .content-page .container-fluid .clientInformatio-right button.termite
+{
+    padding: 5px 25px
+}
 .wrapper .content-page .container-fluid .clientInformatio-right button:hover,
 .wrapper .content-page .container-fluid .clientInformatio-right svg:hover
 {
@@ -509,7 +513,7 @@ body{
     top: 10%;
     left: 40%;
 }
-.wrapper .content-page .container-fluid.p-4 .col-md-9 .card-footer.d-flex.justify-content-end button.btn.btn-default
+.wrapper .content-page .container-fluid.p-4 .col-md-9 .card-footer.d-flex.justify-content-end > button.btn.btn-default.mr-2
 {
     margin-right: 10px !important;
 }
