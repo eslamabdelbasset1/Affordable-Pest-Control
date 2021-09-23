@@ -361,9 +361,9 @@ body{
 .wrapper .content-page .container-fluid .client-img i
 {
     position: absolute;
-    bottom: 25%;
-    left: 75%;
-    padding: 13px;
+    bottom: 35%;
+    left: 78%;
+    padding: 8px;
     background: #69A200;
     box-shadow: 0 12px 30px rgba(105, 162, 0, 0.6);
     border-radius: 50%;
@@ -448,6 +448,11 @@ body{
     font-size: 16px;
     line-height: 18px;
     color: #292929;
+}
+
+.wrapper .content-page .container-fluid.p-4 .col-md-9 .col-sm-12 .card-body.p-3 .d-flex .form-check
+{
+    margin-right: 15px !important;
 }
 /*-----------------------------------------------------------*/
 
