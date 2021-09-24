@@ -171,9 +171,27 @@ body{
 }
 /*------------------------------------------------*/
 
-
+#profit1,
+#profit2,
+#profit3,
+#jobTotal1,
+#jobTotal2,
+#jobTotal3,
+#totalEarning1,
+#totalEarning2,
+#totalEarning3,
+#totalUnpaidJobs1,
+#totalUnpaidJobs2,
+#totalUnpaidJobs3
+{
+    width: 100%;
+    height: 400px;
+}
 /*--------------- Sidebar----------------*/
-
+.side-nav .side-nav-link{
+    padding: 6px 30px;
+    font-size: .9375rem;
+}
 .side-nav .side-nav-link span,
 .side-nav .side-nav-second-level li a
 {
@@ -197,6 +215,8 @@ body{
 }
 .wrapper .content-page .container-fluid .user-wrapper.d-flex h4.user-name b{
     color: #292929;
+    font-size: 26px;
+    line-height: 31px;
 }
 .wrapper .content-page .container-fluid .user-wrapper.d-flex p.user-body,
 .nav-user .account-user-name
@@ -207,6 +227,38 @@ body{
     line-height: 22px;
     color: #474D53;
 }
+.side-nav .side-nav-title {
+    padding: 12px 20px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #868B8F;;
+}
+
+.wrapper .content-page .container-fluid .user-wrapper img.avatar
+{
+    border: 2px solid #ffcc29;
+    padding: 3px;
+}
+
+
+.page-title-box .page-title-right {
+    float: right;
+    margin-top: 3px;
+}
+.page-title-box { position: relative; margin-top: 34px;}
+
+.page-title-box .form-control { padding-left: 30px;}
+
+.page-title-box i
+{
+    position: absolute;
+    right: 13%;
+    color: #ddd;
+    font-size: 19px;
+    top: 10px;
+}
+
+
 .wrapper .content-page .container-fluid h5{
     font-size: 35px !important;
     color: #000;
@@ -215,19 +267,60 @@ body{
     font-size: 12px !important;
 }
 
-.card .header-title{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px !important;
-    line-height: 26px;
+.btn-group{    border: 1px solid #ddd;}
+.chart-btns {
+    font-size: 14px !important;
+    line-height: 17px !important;
+    color: #8f99a4 !important;
+}
+.btnGroup {
+    border-radius: 7px !important;
+    margin-right: 5px !important;
+    background: #F7F7F7;
+}
+
+.chartText
+{
+    font-size: 20px;
     color: #292929;
+    padding: 3px;
+    float: left;
+    font-weight: 500;
+}
+.wrapper .content-page .container-fluid .justify-content-between button.month,
+.wrapper .content-page .container-fluid .justify-content-between button i.fas
+{
+    font-size: 10px;
+}
+.wrapper .content-page .container-fluid .justify-content-between button.btn-light
+{
+    background: #F7F7F7 !important;
+}
+.earningChart {
+    font-size: 12px !important;
+    line-height: 4px !important;
+    padding: 4px !important;
+    background: #F7F7F7 !important;
+    border-radius: 7px;
+}
+.border{
+background: #FFFFFF;
+border: 1px solid #E5E5E5;
+border-radius: 7px;
+}
+.card .header-title{
+font-style: normal;
+font-weight: normal;
+font-size: 22px !important;
+line-height: 26px;
+color: #292929;
 }
 .side-nav .side-nav-second-level li a:hover{
-    color: #69A200;
+color: #69A200;
 }
 .wrapper .content-page .container-fluid .widget-flat .float-end svg
 {
-    margin-top: 13px;
+margin-top: 13px;
 }
 /*------------------- ----------------------------*/
 .wrapper .content-page .container-fluid .widget-flat
@@ -255,6 +348,14 @@ body{
 .wrapper .content-page .container-fluid .widget-flat.widget4{background: #E0E0E0;}
 
 
+.wrapper .content-page .container-fluid b
+{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.4px;
+    color: #2E2E2E;
+}
 
 
 /*----------------------------------------------------*/
@@ -451,7 +552,7 @@ body{
 
 .logout
 {
-    margin: 80px 1px;
+    margin: 40px 1px;
     border-radius: 5px;
     padding: 9px;
     background-color: #f4f4f400;;

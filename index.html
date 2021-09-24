@@ -12,7 +12,9 @@
         <link rel="shortcut icon" href="assets/images/logo/apc_logo.png">
 
         <!-- third party css -->
-
+        <link rel="stylesheet" href="https://stage.apc-crm.com/resources/NewThemeResources/css/daterangepicker.css">
+        <script type="text/javascript" src="https://stage.apc-crm.com/resources/js/daterangepicker.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://stage.apc-crm.com/resources/css/daterangepicker.css" />
         <link href="assets/css/vendor/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="assets/css/all.min.css">
 
@@ -418,14 +420,8 @@
                             <div class="col-md-12 mt-4">
                                 <div class="page-title-box">
                                     <div class="page-title-right">
-                                        <form class="d-flex">
-                                            <div class="input-group">
-                                                <span class="input-group-text text-dark">
-                                                    <i class="mdi mdi-calendar-range font-13"></i>
-                                                </span>
-                                                <input type="text" class="form-control form-control-light" id="dash-daterange">
-                                            </div>
-                                        </form>
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <input type="text" name="dateRange" class="form-control" value="Select Date Range">
                                     </div>
                                 </div>
                                 <div class="user-wrapper d-flex">
@@ -462,7 +458,9 @@
                                                         <span class="text-nowrap">+23.5%</span>
                                                     </p>
                                                 </div>
-                                                <h5 class="fw-normal text-dark mt-1 font-weight-bold">1,620 <span><i class="fas fa-arrow-up"></i></span></h5>
+                                                <h5 id="activeJobCount"
+                                                    class="fw-normal text-dark mt-1 font-weight-bold">1,620
+                                                    <span><i class="fas fa-arrow-up"></i></span></h5>
                                                 <p class="mt-3 text-muted">
                                                     <span class="text-nowrap1">Active Jobs</span>
                                                 </p>
@@ -483,7 +481,8 @@
                                                         <span class="text-nowrap">-6.5%</span>
                                                     </p>
                                                 </div>
-                                                <h5 class="fw-normal text-dark mt-1">140 <span><i class="fas fa-arrow-down"></i></span></h5>
+                                                <h5 id="completeJobCount" class="fw-normal text-dark mt-1">140 <span>
+                                                    <i class="fas fa-arrow-down"></i></span></h5>
                                                 <p class="mt-3 text-muted">
                                                     <span class="text-nowrap2">Completed Job</span>
                                                 </p>
@@ -504,7 +503,7 @@
                                                         <span class="text-nowrap">+11.5%</span>
                                                     </p>
                                                 </div>
-                                                <h5 class="fw-normal text-dark mt-1">32,098</h5>
+                                                <h5 id="unpaidJobCount" class="fw-normal text-dark mt-1">32,098</h5>
                                                 <p class="mt-3 text-muted">
                                                     <span class="text-nowrap3">Unpaid Jobs</span>
                                                 </p>
@@ -525,7 +524,7 @@
                                                         <span class="text-nowrap">+11.5%</span>
                                                     </p>
                                                 </div>
-                                                <h5 class="fw-normal text-dark mt-1 ">75,019</h5>
+                                                <h5 id="ytdJobCount" class="fw-normal text-dark mt-1 ">75,019</h5>
                                                 <p class="mt-3 text-muted">
                                                     <span class="text-nowrap4">YTD</span>
                                                 </p>
@@ -538,82 +537,178 @@
                         </div>
                         <!-- end row -->
 
-                        <div class="row">
-                            <div class="col-lg-6 col-md-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h4 class="header-title mb-3">Profit</h4>
-                                        <div dir="ltr">
-                                            <div id="profit" class="apex-charts" data-colors="#81B214"></div>
-                                        </div>
-                                    </div> <!-- end card-body-->
-                                </div> <!-- end card-->
-                            </div> <!-- end col-->
-
-                            <div class="col-lg-6 col-md-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul class="nav float-end d-none d-lg-flex">
-                                            <li class="nav-item">
-                                                <a class="nav-link text-muted" href="#">Today</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link text-muted" href="#">7d</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link text-muted" href="#">1y</a>
-                                            </li>
-                                        </ul>
-                                        <h4 class="header-title mb-3">Total Jobs</h4>
-
-                                        <div dir="ltr">
-                                            <div id="totalJobs" class="apex-charts mt-3" data-colors="#A2CF007E"></div>
-                                        </div>
-                                    </div> <!-- end card-body-->
-                                </div> <!-- end card-->
-                            </div> <!-- end col-->
+                        <div class="row p-2">
+                            <div class="col-md-6 my-1">
+                                <img src="https://stage.apc-crm.com/resources/NewThemeResources/img/grph.svg">
+                                <b> REAL-TIME GRAPHIC</b>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex justify-content-end my-1">
+                                    <select class="form-select form-select-lg w-25" aria-label=".form-select-lg example">
+                                        <option selected>Shaw: All</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
                         </div>
-                        <!-- end row -->
 
                         <div class="row">
-                            <div class="col-lg-6 col-md-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h4 class="header-title mb-4">Total Earning</h4>
-                                        <div dir="ltr">
-                                            <div class="bar-container"
-                                                 style="width: 100%;height: 260px;"
-                                                 data-colors="#81B214"></div>
+                            <div class="col-md-6 col-sm-12 mb-6">
+                                <div class="row earningCart mx-2">
+                                    <div class="col-12 border">
+                                        <div class="row p-3">
+                                            <div class="col-md-3">
+                                                <p id="ChartText" class="chartText">Profit</p>
+                                            </div>
+                                            <div class="col-md-9 d-flex justify-content-between">
+                                                <div class="btn-group btnGroup" role="group">
+                                                    <button type="button" class="btn btn-light" title="Decrease week" onclick="decreaseweek()">
+                                                        <i class="fas fa-chevron-left c-padding"></i>
+                                                    </button>
+                                                     <button type="button" class="btn btn-light month">
+                                                         27 Jun <span ng-if="viewId==2">-</span> 6 Jul
+                                                     </button>
+                                                    <button type="button" class="btn btn-light " title="Increase week" onclick="increaseweek()">
+                                                        <i class="fas fa-chevron-right c-padding"></i>
+                                                    </button>
+                                                </div>
+
+                                                <div class="btn-group btnGroup" role="group">
+                                                    <button type="button" class="btn earningChart btn-light activeColor" id="weekly">Weekly</button>
+                                                    <button type="button" class="btn earningChart btn-light" id="monthly">Monthly</button>
+                                                    <button type="button" class="btn earningChart btn-light" id="yearly">Yearly</button>
+                                                </div>
+                                                <div class="btn-group btnGroup" role="group">
+                                                    <button type="button" class="btn btn-light">
+                                                        <i class="fas fa-download"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <div id="profit1" class="weekly_cart "></div>
+                                        <div id="profit2" class="monthly_cart" style="display:none;"></div>
+                                        <div id="profit3" class="yearly_cart" style="display:none;"></div>
                                     </div>
-                                    <!-- end card body-->
-                                </div> <!-- end card-->
-                            </div> <!-- end col-->
-
-                            <div class="col-lg-6 col-md-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul class="nav float-end d-none d-lg-flex">
-                                            <li class="nav-item">
-                                                <a class="nav-link text-muted" href="#">Today</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link text-muted" href="#">7d</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link text-muted" href="#">1y</a>
-                                            </li>
-                                        </ul>
-                                        <h4 class="header-title mb-3">Total Unpaid Jobs</h4>
-
-                                        <div dir="ltr">
-                                            <div id="totalUnpaidJobs" class="apex-charts mt-3" data-colors="#FFCC2980"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-6">
+                                <div class="row mx-2">
+                                    <div class="col-12 border">
+                                        <div class="row p-3">
+                                            <div class="col-md-3">
+                                                <p class="chartText">Total Jobs</p>
+                                            </div>
+                                            <div class="col-md-9 d-flex justify-content-between">
+                                                <div class="btn-group btnGroup" role="group">
+                                                    <button type="button" class="btn btn-light " title="Decrease week" onclick="decreaseweek()"><i class="fas fa-chevron-left c-padding"></i></button>
+                                                     <button type="button" class="btn btn-light month">
+                                                        <span ng-if="viewId==2">September</span>
+                                                     </button>
+                                                    <button type="button" class="btn btn-light" title="Increase week" onclick="increaseweek()"><i class="fas fa-chevron-right c-padding"></i></button>
+                                                </div>
+                                                <div class="btn-group btnGroup" role="group">
+                                                    <button type="button" class="btn earningChart btn-light activeColor" id="weekly_total_job">Weekly</button>
+                                                    <button type="button" class="btn earningChart btn-light" id="monthly_total_job">Monthly</button>
+                                                    <button type="button" class="btn earningChart btn-light" id="yearly_total_job">Yearly</button>
+                                                </div>
+                                                <div class="btn-group btnGroup" role="group">
+                                                    <button type="button" class="btn btn-light">
+                                                        <i class="fas fa-download"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div> <!-- end card-body-->
-                                </div> <!-- end card-->
-                            </div> <!-- end col-->
+                                        <div id="jobTotal1" class="weekly_cart_total_job"></div>
+                                        <div id="jobTotal2" class="monthly_cart_total_job" style="display:none;"></div>
+                                        <div id="jobTotal3" class="yearly_cart_total_job" style="display:none;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
-                        <!-- end row -->
+
+                        <div class="row px-2 mt-4">
+                            <!-- /////////////////////////////////////////////////////////////////////// -->
+                            <!-- //  Individual Staff Earnings Chart Start -->
+                            <!-- ////////////////////////////////////////////////////////////////////// -->
+                            <div class="col-md-6 mb-6">
+                                <div class="row mx-2">
+                                    <div class="col-12 border">
+                                        <div class="row p-3">
+                                            <div class="col-md-3">
+                                                <p class="chartText" style="font-size: 18px">Total Earning</p>
+                                            </div>
+                                            <div class="col-md-9 d-flex justify-content-between">
+                                                <div class="btn-group btnGroup" role="group">
+                                                    <button type="button" class="btn btn-light " title="Decrease week" onclick="decreaseweek()"><i class="fas fa-chevron-left c-padding"></i></button>
+                                                    <button type="button" class="btn btn-light month">
+                                                        27 Jun <span ng-if="viewId==2">-</span> 6 Jul
+                                                    </button>
+                                                    <button type="button" class="btn btn-light" title="Increase week" onclick="increaseweek()"><i class="fas fa-chevron-right c-padding"></i></button>
+                                                </div>
+                                                <div class="btn-group btnGroup" role="group">
+                                                    <button type="button" class="btn earningChart btn-light activeColor" id="weekly_earning">Weekly</button>
+                                                    <button type="button" class="btn earningChart btn-light" id="monthly_earning">Monthly</button>
+                                                    <button type="button" class="btn earningChart btn-light" id="yearly_earning">Yearly</button>
+                                                </div>
+                                                <div class="btn-group btnGroup" role="group">
+                                                    <button type="button" class="btn btn-light">
+                                                        <i class="fas fa-download"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="totalEarning1" class="weekly_cart_earning"></div>
+                                        <div id="totalEarning2" class="monthly_cart_earning" style="display:none;"></div>
+                                        <div id="totalEarning3" class="yearly_cart_earning" style="display:none;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /////////////////////////////////////////////////////////////////////// -->
+                            <!-- //  Individual Staff Week Earnings Chart End -->
+                            <!-- ////////////////////////////////////////////////////////////////////// -->
+
+                            <!-- /////////////////////////////////////////////////////////////////////// -->
+                            <!-- //  Unpaid Jobs Chart Start -->
+                            <!-- ////////////////////////////////////////////////////////////////////// -->
+                            <div class="col-md-6 col-sm-12 mb-6">
+                                <div class="row earningCart mx-2">
+                                    <div class="col-12 border">
+                                        <div class="row p-4">
+                                            <div class="col-md-4">
+                                                <p class="chartText" style="font-size: 18px">Total Unpaid Jobs</p>
+                                            </div>
+                                            <div class="col-md-8 d-flex justify-content-between">
+                                                <div class="btn-group btnGroup" role="group">
+                                                    <button type="button" class="btn btn-light " title="Decrease week" onclick="decreaseweek()"><i class="fas fa-chevron-left c-padding"></i></button>
+                                                    <button type="button" class="btn btn-light month"> <span ng-if="viewId==2">2021</span></button>
+                                                    <button type="button" class="btn btn-light" title="Increase week" onclick="increaseweek()"><i class="fas fa-chevron-right c-padding"></i></button>
+                                                </div>
+                                                <div class="btn-group btnGroup" role="group">
+                                                    <button type="button" class="btn earningChart btn-light activeColor" id="weekly_unpaid_jobs">Weekly</button>
+                                                    <button type="button" class="btn earningChart btn-light" id="monthly_unpaid_jobs">Monthly</button>
+                                                    <button type="button" class="btn earningChart btn-light" id="yearly_unpaid_jobs">Yearly</button>
+                                                </div>
+                                                <div class="btn-group btnGroup" role="group">
+                                                    <button type="button" class="btn btn-light">
+                                                        <i class="fas fa-download"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="totalUnpaidJobs1"  class="weekly_cart_unpaid_jobs"></div>
+                                        <div id="totalUnpaidJobs2" class="monthly_cart_unpaid_jobs" style="display:none;"></div>
+                                        <div id="totalUnpaidJobs3" class="yearly_cart_unpaid_jobs" style="display:none;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /////////////////////////////////////////////////////////////////////// -->
+                            <!-- //  Unpaid Jobs Chart End -->
+                            <!-- ////////////////////////////////////////////////////////////////////// -->
+
+                        </div>
 
                     </div>
                     <!-- container -->
@@ -723,19 +818,17 @@
         <script src="assets/js/vendor.min.js"></script>
         <script src="assets/js/main.js"></script>
         <!-- third party js -->
-        <script src="assets/js/vendor/jquery-jvectormap-1.2.2.min.js"></script>
-        <script src="assets/js/vendor/jquery-jvectormap-world-mill-en.js"></script>
-        <script src="assets/js/vendor/apexcharts.min.js"></script>
         <!-- third party js ends -->
-
+        <script src="https://stage.apc-crm.com/resources/NewThemeResources/js/adminlte.min.js"></script>
+        <script src="https://stage.apc-crm.com/resources/NewThemeResources/js/daterangepicker.js"></script>
         <!-- third party:js -->
         <script src="assets/js/vendor/d3.min.js"></script>
-        <script src="assets/js/vendor/britecharts.min.js"></script>
         <!-- third party end -->
         <!-- total Jobs char:js -->
-        <script src="assets/js/pages/totalJobschart.js"></script>
-        <!-- dashboard Chart -->
-        <script src="assets/js/pages/dashboardChart.js"></script>
+        <script src="https://stage.apc-crm.com/assets/js/core.js"></script>
+        <script src="https://stage.apc-crm.com/assets/js/charts.js"></script>
+        <script src="https://stage.apc-crm.com/assets/js/animated.js"></script>
+        <script src="assets/js/dashboardCart.js"></script>
     </body>
 </html>
 
