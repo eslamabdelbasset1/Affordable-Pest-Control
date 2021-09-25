@@ -930,3 +930,8 @@ table.dataTable tbody td {
 {
     display: none;
 }
+
+#tableDetails #basic-datatable tbody tr td a i
+{
+    color: #919BA4;
+}
