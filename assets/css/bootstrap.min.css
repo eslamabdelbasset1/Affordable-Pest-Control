@@ -2584,25 +2584,23 @@ textarea.form-control-lg {
 }
 .btn-success {
     color: #fff;
-    background-color: #0acf97;
-    border-color: #0acf97;
+    background-color: #69A200;
+    border-color: #69A200;
 }
 .btn-success:hover {
     color: #fff;
-    background-color: #09b080;
-    border-color: #08a679;
+    background-color: #69A200;
+    border-color: #69A200;
 }
 .btn-check:focus+.btn-success, .btn-success:focus {
     color: #fff;
-    background-color: #09b080;
-    border-color: #08a679;
-    -webkit-box-shadow: 0 0 0 .2rem rgba(47, 214, 167, .5);
-    box-shadow: 0 0 0 .2rem rgba(47, 214, 167, .5);
+    background-color: #69A200;
+    border-color: #69A200;
 }
 .btn-check:active+.btn-success, .btn-check:checked+.btn-success, .btn-success.active, .btn-success:active, .show>.btn-success.dropdown-toggle {
     color: #fff;
-    background-color: #08a679;
-    border-color: #089b71;
+    background-color: #69A200;
+    border-color: #69A200;
 }
 .btn-check:active+.btn-success:focus, .btn-check:checked+.btn-success:focus, .btn-success.active:focus, .btn-success:active:focus, .show>.btn-success.dropdown-toggle:focus {
     -webkit-box-shadow: 0 0 0 .2rem rgba(47, 214, 167, .5);

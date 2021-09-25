@@ -935,3 +935,9 @@ table.dataTable tbody td {
 {
     color: #919BA4;
 }
+.modal-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
