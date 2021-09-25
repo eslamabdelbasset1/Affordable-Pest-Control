@@ -908,7 +908,8 @@ table.dataTable tbody td {
 #editStaff .modal-body input[type=text],
 #addStaff .modal-body input[type=text],
 #addStaff .modal-body input[type=email],
-#addStaff .modal-body input[type=text]
+#addStaff .modal-body input[type=text],
+#modalStatus .modal-body input[type=text]
 {
     width: 100%;
     background: #FFFFFF;
