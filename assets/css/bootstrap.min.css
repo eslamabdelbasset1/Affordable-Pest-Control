@@ -6874,7 +6874,7 @@ textarea.form-control-lg {
     background-color: #6c757d!important;
 }
 .bg-success {
-    background-color: #0acf97!important;
+    background-color: #69A200!important;
 }
 .bg-info {
     background-color: #39afd1!important;
@@ -12527,11 +12527,7 @@ select.form-control-sm:not([size]):not([multiple]) {
 .nav-tabs.nav-bordered li a.active {
     border-bottom: 2px solid #69A200;
 }
-.pagination-rounded .page-link {
-    border-radius: 30px!important;
-    margin: 0 3px!important;
-    border: none;
-}
+
 .popover-header {
     margin-top: 0;
 }

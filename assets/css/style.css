@@ -169,6 +169,18 @@ body{
     border: 1px solid #69A200 !important;
     color: #fff !important;
 }
+.headerText{
+    font-weight: 600 !important;
+    font-size: 26px !important;
+    line-height: 31px !important;
+    color: #292929 !important;
+}
+button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
 /*------------------------------------------------*/
 
 #profit1,
@@ -362,7 +374,7 @@ margin-top: 13px;
 
 /*--------------- Calender Model -----------------------*/
 #calenderModel .modal.show .modal-left, .modal.show .modal-right{
-    height: 185vh !important;
+    /*height: 185vh !important;*/
 }
 
 #event-modal .modal-body input
@@ -490,10 +502,12 @@ margin-top: 13px;
     border: 2px solid #69A200;
 }
 .inbox-widget .inbox-item .inbox-item-author{
+    font-weight: 500;
     font-size: 18px;
-    font-weight: 900;
+    line-height: 22px;
+    color: #292929;
 }
-.wrapper .content-page .container-fluid table-responsive table thead th
+.wrapper .content-page .container-fluid .table-responsive table thead th
 {
     font-weight: 500;
     font-size: 14px;
@@ -507,6 +521,11 @@ margin-top: 13px;
     font-size: 12px;
     line-height: 14px;
     color: #292929;
+}
+.pagination-rounded .page-link {
+    border-radius: 33% !important;
+    margin: 0 3px!important;
+    border: none;
 }
 /*--------------- End Staff Location ------------------------*/
 
@@ -609,7 +628,7 @@ margin-top: 13px;
 }
  a{color: #fff; text-decoration: none;}
  .modal-header > button.btn.btn-success {padding: 3px 10px;}
-.modal-footer{display: inline-block !important}
+.modal-footer{display: inline-block}
 .modal-content .modal-footer .btn-success {float: right !important}
 .modal-content .modal-footer .btn-outline-light
 {
@@ -624,7 +643,7 @@ margin-top: 13px;
 /*-------------------------- Start  -------------------------*/
 .wrapper .content-page .container-fluid .card h5.paragraph
 {
-    font-weight: 900;
+    font-weight: 500;
     font-size: 18px !important;
     line-height: 22px;
     color: #292929;
@@ -706,9 +725,16 @@ margin-top: 13px;
     text-transform: uppercase;
     color: #868B8F;
 }
+.wrapper .content-page .container-fluid .nav-tabs.nav-bordered h3
+{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+    color: #292929;
+}
 .wrapper .content-page .container-fluid .clientInformatio-left h5
 {
-    font-weight: 900;
+    font-weight: 500;
     font-size: 18px !important;
     line-height: 22px;
     color: #292929;
@@ -862,3 +888,45 @@ table.dataTable tbody td {
 
 
 /*--------------------*/
+/*-------------------------Clients------------*/
+#addClient h4{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+}
+#addClient .modal-body input[type=text],
+#addClient .modal-body input[type=email],
+#addClient .modal-body input[type=number]
+{
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08177);
+    border-radius: 3px;
+}
+#addClient label
+{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #2E2E2E;
+}
+.qoutesImg
+{
+    background: #F7F7F7;
+    border-radius: 4px
+}
+
+#tableDetails table.dataTable > thead > tr > th, table.dataTable > thead > tr > td
+{
+    padding-right:  0 !important;
+}
+#tableDetails table.dataTable tbody td
+{
+    width: 0% !important;
+}
+#tableDetails div.dataTables_wrapper div.dataTables_length label,
+#tableDetails div.dataTables_wrapper div.dataTables_filter
+{
+    display: none;
+}
