@@ -175,10 +175,13 @@ body{
     line-height: 31px !important;
     color: #292929 !important;
 }
-button{
+button,
+.btn
+{
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+    border-radius: 7px;
 }
 
 /*------------------------------------------------*/
@@ -896,7 +899,13 @@ table.dataTable tbody td {
 }
 #addClient .modal-body input[type=text],
 #addClient .modal-body input[type=email],
-#addClient .modal-body input[type=number]
+#addClient .modal-body input[type=number],
+#addNewStaff .modal-body input[type=text],
+#addNewStaff .modal-body input[type=email],
+#addNewStaff .modal-body input[type=text],
+#editStaff .modal-body input[type=text],
+#editStaff .modal-body input[type=email],
+#editStaff .modal-body input[type=text]
 {
     width: 100%;
     background: #FFFFFF;
