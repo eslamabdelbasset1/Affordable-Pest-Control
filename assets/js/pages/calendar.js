@@ -22,7 +22,7 @@
             this.$modal.show(),
             (this.$selectedEvent = e.event),
             l("#event-title").val(this.$selectedEvent.title),
-            l("#event-category").val(this.$selectedEvent.classNames[0]);
+            l("#first_name").val(this.$selectedEvent.classNames[0]);
     }),
         (e.prototype.onSelect = function (e) {
             this.$formEvent[0].reset(),
@@ -49,8 +49,15 @@
                         title: "Meeting with Mr. Shreyu",
                         start: new Date(l.now() + 158e6),
                         end: new Date(l.now() + 338e6),
-                        className: "bg-warning"
+                        className: "bg-success"
                     },
+                    { img:"http://localhost:63342/Affordable%20Pest%20Control/assets/images/logo/Bitmap-profile.png",
+                        title: "Interview - Backend Engineer", start: e, end: e, className: "bg-success" },
+                    { img:"http://localhost:63342/Affordable%20Pest%20Control/assets/images/logo/Bitmap-profile.png",
+                        title: "Phone Screen - Frontend Engineer", start: new Date(l.now() + 168e6), className: "bg-info" },
+                    { img:"http://localhost:63342/Affordable%20Pest%20Control/assets/images/logo/Bitmap-profile.png",
+                        title: "Buy Design Assets", start: new Date(l.now() + 338e6), end: new Date(l.now() + 4056e5), className: "bg-primary" },
+
                 ],
                 a = this;
             (a.$calendarObj = new FullCalendar.Calendar(a.$calendar[0], {
@@ -72,14 +79,15 @@
 
                     let italicEl = document.createElement('div')
                     italicEl.innerHTML = `
-                    <h5>Heavy Subfloor Dusting</h5>
-                    <span>Culbura Beach NSW 2540</span>
-                    <span>$250.00</span>
+                    <h3>Heavy Subfloor Dusting</h3>
+                    <p>Culbura Beach NSW 2540</p>
+                    <p>$250.00</p>
                     <img src="${arg.event.extendedProps.img}"/>
+                    <span><b>John Doe</b></span>
                     `
+                    italicEl.classList.add("eventStyle");
                     let arrayOfDomNodes = [ italicEl ]
                     return { domNodes: arrayOfDomNodes }
-
                 },
 
                 dateClick: function (e) {
@@ -103,10 +111,10 @@
                             ? (
                                 a.$selectedEvent.setProp("title", l("#event-title").val()),
 
-                                a.$selectedEvent.setProp("classNames", [l("#event-category").val()]))
+                                a.$selectedEvent.setProp("classNames", [l("#first_name").val()]))
                                 : ((t = { title: l("#event-title").val(),
                                 start: a.$newEventData.date, allDay:
-                                a.$newEventData.allDay, className: l("#event-category").val() }),
+                                a.$newEventData.allDay, className: l("#first_name").val() }),
                             //    { img:"http://localhost:63342/Affordable%20Pest%20Control/assets/images/logo/Bitmap-profile.png", title: "Meeting with Mr. Shreyu", start: new Date(l.now() + 158e6), end: new Date(l.now() + 338e6), className: "bg-warning" },
                                 a.$calendarObj.addEvent(t)),
 

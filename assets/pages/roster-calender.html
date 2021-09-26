@@ -442,249 +442,247 @@
                                     </div> <!-- end row -->
                                 </div> <!-- end card body-->
                             </div> <!-- end card -->
+                        </div>
+                        <!-- end col-12 -->
+                    </div> <!-- end row -->
+                </div> <!-- container -->
 
 
+                <!-- Add New Event MODAL -->
+                <div id="event-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-right modal-dialog-scrollable" role="document">
+                        <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title" id="modal-title">Select Job Type</h4>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="needs-validation" name="event-form" id="form-event" novalidate="">
+                                    <div class="row">
+                                        <div class="row">
+                                            <div class="col-sm-12 header my-3">
+                                                <select class="form-select form-control w-100" name="" id="event-category1" required="">
+                                                    <option value="#" selected="">Residential Job</option>
+                                                    <option value="#">test</option>
+                                                    <option value="#">test</option>
+                                                    <option value="#">test</option>
+                                                </select>
+                                            </div>
 
-                            <!-- Add New Event MODAL -->
-                            <div id="event-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-                                <div class="modal-dialog modal-lg modal-right modal-dialog-scrollable" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h4 class="modal-title  " id="standard-modalLabel">Select Job Type</h4>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true"></button>
                                         </div>
-                                        <div class="modal-body">
-                                            <form class="needs-validation" name="event-form" id="form-event" novalidate="">
+                                        <h4 class="activeColor nav-tabs nav-bordered my-2">Create Residential Job</h4>
+
+                                        <p>Client Information</p>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-4">
+                                                        <div class="mb-3">
+                                                            <input class="form-control" id="first_name" type="text" required="" placeholder="First name*">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="mb-3">
+                                                            <input class="form-control" type="text" required="" placeholder="Last name*">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="mb-3">
+                                                            <input class="form-control" type="email" required="" placeholder="Email">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="mb-3">
+                                                    <input class="form-control" type="text" required="" placeholder="Address*">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 nav-tabs nav-bordered">
+                                                <div class="row">
+                                                    <div class="col-sm-4">
+                                                        <div class="mb-3">
+                                                            <input class="form-control" type="text" required="" placeholder="Suburb*">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="mb-3">
+                                                            <input class="form-control" type="number" required="" placeholder="Land line">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="mb-3">
+                                                            <input class="form-control" type="number" required="" placeholder="Mobile number">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-12 nav-tabs nav-bordered mt-3">
+                                                <p>Job Detail</p>
+                                                <div class="row">
+                                                    <div class="col-sm-4">
+                                                        <div class="mb-3">
+                                                            <input class="form-control" type="date" required="" placeholder="Thusday, October 1">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="mb-3">
+                                                            <input class="form-control" type="time" required="" placeholder="08:00">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="mb-3">
+                                                            <input class="form-control" type="time" required="" placeholder="09:00">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
                                                 <div class="row">
                                                     <div class="row">
-                                                        <div class="col-sm-12 header my-3">
-                                                            <select class="form-select form-control w-100" name="" id="event-category1" required="">
-                                                                <option value="#" selected="">Residential Job</option>
+                                                        <div class='col-sm-4 col-md-4 col-sm-4'>
+                                                            Attending Tech :
+                                                        </div>
+                                                        <div class='col-sm-8 col-md-8 col-sm-8'>
+                                                            <select class='form-select form-control-sm select2'>
+                                                                <option value="39">Brandon Howard</option>
+                                                                <option value="40">Bradley Fernie</option>
+                                                                <option value="43">Laura Donney</option>
+                                                                <option value="45">Courtney Summerrell</option>
+                                                                <option value="46">Tayla Francis</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-12 my-2">
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-sm-4">
+                                                                        <div class="mb-3">
+                                                                            <input class="form-control" type="text" required="" placeholder="J1169">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-4">
+                                                                        <div class="mb-3">
+                                                                            <input class="form-control" type="text" required="" placeholder="Cost">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-4">
+                                                                        <div class="mb-3">
+                                                                            <input class="form-control" type="text" required="" placeholder="Invoice Number">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="mb-3">
+                                                                    <input class="form-control" type="text" required="" placeholder="Service Notes">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-12 nav-tabs nav-bordered mt-3">
+                                                <p>Job Problem</p>
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <div class="mb-3">
+                                                            <select class="form-select form-control w-100" name="" id="event-category2" required="">
+                                                                <option value="#" selected="">Active Fleas</option>
                                                                 <option value="#">test</option>
                                                                 <option value="#">test</option>
                                                                 <option value="#">test</option>
                                                             </select>
                                                         </div>
-
                                                     </div>
-                                                    <h4 class="activeColor nav-tabs nav-bordered my-2">Create Residential Job</h4>
+                                                    <div class="col-sm-12">
+                                                        <div class="mb-3">
+                                                            <select class="form-select form-control w-100" name="" id="jobProblem2" required="">
+                                                                <option value="#" selected="">Certificates Required</option>
+                                                                <option value="#">test</option>
+                                                                <option value="#">test</option>
+                                                                <option value="#">test</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-12">
+                                                        <div class="mb-3">
+                                                            <select class="form-select form-control w-100" name="" id="jobProblem3" required="">
+                                                                <option value="#" selected="">Report Required</option>
+                                                                <option value="#">test</option>
+                                                                <option value="#">test</option>
+                                                                <option value="#">test</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
 
-                                                    <p>Client Information</p>
+                                            <div class="row nav-tabs nav-bordered mt-3">
+                                                <div class="col-md-8 mb-3 border-2">
                                                     <div class="row">
-                                                        <div class="col-sm-12">
-                                                            <div class="row">
-                                                                <div class="col-sm-4">
-                                                                    <div class="mb-3">
-                                                                        <input class="form-control" type="text" required="" placeholder="First name*">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-4">
-                                                                    <div class="mb-3">
-                                                                        <input class="form-control" type="text" required="" placeholder="Last name*">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-4">
-                                                                    <div class="mb-3">
-                                                                        <input class="form-control" type="email" required="" placeholder="Email">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                                        <div class="col-sm-6">
+                                                            <button class="btn btn-primary activeBackground">
+                                                                Inside Spraying
+                                                                <i class="fas fa-times"></i>
+                                                            </button>
                                                         </div>
-                                                        <div class="col-sm-12">
-                                                            <div class="mb-3">
-                                                                <input class="form-control" type="text" required="" placeholder="Address*">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12 nav-tabs nav-bordered">
-                                                            <div class="row">
-                                                                <div class="col-sm-4">
-                                                                    <div class="mb-3">
-                                                                        <input class="form-control" type="text" required="" placeholder="Suburb*">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-4">
-                                                                    <div class="mb-3">
-                                                                        <input class="form-control" type="number" required="" placeholder="Land line">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-4">
-                                                                    <div class="mb-3">
-                                                                        <input class="form-control" type="number" required="" placeholder="Mobile number">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-sm-12 nav-tabs nav-bordered mt-3">
-                                                            <p>Job Detail</p>
-                                                            <div class="row">
-                                                                <div class="col-sm-4">
-                                                                    <div class="mb-3">
-                                                                        <input class="form-control" type="date" required="" placeholder="Thusday, October 1">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-4">
-                                                                    <div class="mb-3">
-                                                                        <input class="form-control" type="time" required="" placeholder="08:00">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-4">
-                                                                    <div class="mb-3">
-                                                                        <input class="form-control" type="time" required="" placeholder="09:00">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="row">
-                                                                <div class="row">
-                                                                    <div class='col-sm-4 col-md-4 col-sm-4'>
-                                                                        Attending Tech :
-                                                                    </div>
-                                                                    <div class='col-sm-8 col-md-8 col-sm-8'>
-                                                                        <select class='form-select form-control-sm select2'>
-                                                                            <option value="39">Brandon Howard</option>
-                                                                            <option value="40">Bradley Fernie</option>
-                                                                            <option value="43">Laura Donney</option>
-                                                                            <option value="45">Courtney Summerrell</option>
-                                                                            <option value="46">Tayla Francis</option>
-                                                                        </select>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-12 my-2">
-                                                                    <div class="row">
-                                                                        <div class="col-md-12">
-                                                                            <div class="row">
-                                                                                <div class="col-sm-4">
-                                                                                    <div class="mb-3">
-                                                                                        <input class="form-control" type="text" required="" placeholder="J1169">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-sm-4">
-                                                                                    <div class="mb-3">
-                                                                                        <input class="form-control" type="text" required="" placeholder="Cost">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-sm-4">
-                                                                                    <div class="mb-3">
-                                                                                        <input class="form-control" type="text" required="" placeholder="Invoice Number">
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="col-md-12">
-                                                                            <div class="mb-3">
-                                                                                <input class="form-control" type="text" required="" placeholder="Service Notes">
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-sm-12 nav-tabs nav-bordered mt-3">
-                                                            <p>Job Problem</p>
-                                                            <div class="row">
-                                                                <div class="col-sm-12">
-                                                                    <div class="mb-3">
-                                                                        <select class="form-select form-control w-100" name="" id="event-category2" required="">
-                                                                            <option value="#" selected="">Active Fleas</option>
-                                                                            <option value="#">test</option>
-                                                                            <option value="#">test</option>
-                                                                            <option value="#">test</option>
-                                                                        </select>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-12">
-                                                                    <div class="mb-3">
-                                                                        <select class="form-select form-control w-100" name="" id="jobProblem2" required="">
-                                                                            <option value="#" selected="">Certificates Required</option>
-                                                                            <option value="#">test</option>
-                                                                            <option value="#">test</option>
-                                                                            <option value="#">test</option>
-                                                                        </select>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-12">
-                                                                    <div class="mb-3">
-                                                                        <select class="form-select form-control w-100" name="" id="jobProblem3" required="">
-                                                                            <option value="#" selected="">Report Required</option>
-                                                                            <option value="#">test</option>
-                                                                            <option value="#">test</option>
-                                                                            <option value="#">test</option>
-                                                                        </select>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="row nav-tabs nav-bordered mt-3">
-                                                            <div class="col-md-8 mb-3 border-2">
-                                                                <div class="row">
-                                                                    <div class="col-sm-6">
-                                                                        <button class="btn btn-primary activeBackground">
-                                                                            Inside Spraying
-                                                                            <i class="fas fa-times"></i>
-                                                                        </button>
-                                                                    </div>
-                                                                    <div class="col-sm-6">
-                                                                        <button class="btn btn-primary activeBackground">
-                                                                            Inside Spraying
-                                                                            <i class="fas fa-times"></i>
-                                                                        </button>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-4 mb-3">
-                                                                <button class="btn btn-primary activeColor">
-                                                                    <i class="fas fa-plus"></i>
-                                                                    Add Service
-                                                                </button>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="row">
-                                                            <div class="col-sm-12">
-                                                                <table class="table table-bordered table-centered mb-0 text-center my-3">
-                                                                    <thead>
-                                                                    <tr>
-                                                                        <th class="activeColor">Problem</th>
-                                                                        <th class="activeColor">Services</th>
-                                                                        <th class="activeColor">Action</th>
-                                                                    </tr>
-                                                                    </thead>
-                                                                    <tbody>
-                                                                    <tr>
-                                                                        <td>Active Fleas</td>
-                                                                        <td>Inside Spraying, Yard Spraying,
-                                                                            Heavy Subfloor Dusting</td>
-                                                                        <td>
-                                                                            <i class="far fa-trash-alt text-danger"> Delete</i>
-                                                                        </td>
-                                                                    </tr>
-                                                                    </tbody>
-                                                                </table>
-                                                            </div>
-
-                                                            <div class="row">
-                                                                <div class="d-flex justify-content-between mt-3">
-                                                                    <button type="button" data-bs-dismiss="modal" class="btn btn-light">Close</button>
-                                                                    <button class="btn btn-success" id="btn-save-event">Create Event</button>
-                                                                </div>
-                                                            </div>
+                                                        <div class="col-sm-6">
+                                                            <button class="btn btn-primary activeBackground">
+                                                                Inside Spraying
+                                                                <i class="fas fa-times"></i>
+                                                            </button>
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <div class="col-md-4 mb-3">
+                                                    <button class="btn btn-primary activeColor">
+                                                        <i class="fas fa-plus"></i>
+                                                        Add Service
+                                                    </button>
                                                 </div>
-                                            </form>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <table class="table table-bordered table-centered mb-0 text-center my-3">
+                                                        <thead>
+                                                        <tr>
+                                                            <th class="activeColor">Problem</th>
+                                                            <th class="activeColor">Services</th>
+                                                            <th class="activeColor">Action</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td>Active Fleas</td>
+                                                            <td>Inside Spraying, Yard Spraying,
+                                                                Heavy Subfloor Dusting</td>
+                                                            <td>
+                                                                <i class="far fa-trash-alt text-danger"> Delete</i>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="d-flex justify-content-between mt-3">
+                                                        <button type="button" data-bs-dismiss="modal" class="btn btn-light">Close</button>
+                                                        <button class="btn btn-success" id="btn-save-event">Create Event</button>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
+                                    </form>
+                                </div>
                         </div>
-                        <!-- end col-12 -->
-                    </div> <!-- end row -->
-                </div> <!-- container -->
+                        <!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
             </div> <!-- container -->
         </div>
         <!-- content -->
