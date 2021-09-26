@@ -1102,3 +1102,31 @@ color: #eaeaea;
     background: #FDEFD1 !important;
     border-radius: 4px;
 }
+#calendar > div.fc-view-harness.fc-view-harness-active > div.fc-timegrid.fc-timeGridWeek-view.fc-view > table > thead{
+    color: #48515B !important;
+
+}
+.fc .fc-col-header-cell-cushion{
+    margin-top: 10px !important;
+}
+#calendar > div.fc-view-harness.fc-view-harness-active > div.fc-timegrid.fc-timeGridWeek-view.fc-view > table > thead > tr > td > div > div > table
+{
+    background: #EBF2E1 !important;
+    height: 40px;
+    color: #48515B;
+}
+
+#staff_calender option:hover{
+    background: #69A200 !important;
+    color: #FFFFFF !important;
+}
+#selectStaff .dropdown-menu-animated.dropdown-menu-end[style]
+{
+    position: absolute !important;
+    top: 95% !important;
+    left: 10% !important;
+    width: 187% !important;
+}
+#selectStaff .notification-list .topbar-dropdown-menu a.notify-item:hover{
+    color: #69A200 !important;
+}
