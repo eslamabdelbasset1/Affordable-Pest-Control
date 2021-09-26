@@ -1128,5 +1128,5 @@ color: #eaeaea;
     width: 187% !important;
 }
 #selectStaff .notification-list .topbar-dropdown-menu a.notify-item:hover{
-    color: #69A200 !important;
+    background: #69A200 !important;
 }
