@@ -913,8 +913,9 @@ table.dataTable tbody td {
     width: 100%;
     background: #FFFFFF;
     border: 1px solid #E5E5E5;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08177);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08177);
     border-radius: 3px;
+    padding: 12px;
 }
 #addClient label
 {
@@ -953,3 +954,68 @@ table.dataTable tbody td {
     line-height: 19px;
     color: #000000;
 }
+
+
+
+/*----------------------- Login ----------------------------*/
+#login{
+    background: #69A200;
+    height: 100vh;
+}
+.account-pages{
+   background: #0e3305;
+}
+#login .logo_image
+{
+    width: 130px;
+    margin: auto;
+    padding: 30px;
+    background-color: #fff !important;
+    border-radius: 34px;
+}
+#login h4
+{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF !important;
+}
+#login label
+{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+#login p > a.forgot
+{
+color: #eaeaea;
+}
+#login button a{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #886800;
+}
+#login p > a.forgot:hover{
+    color: #886800;
+}
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #69A200;
+}
+
+.validate {
+    border-radius: 7px;
+    height: 40px;
+}
+
+
+.card-2 a {
+    color: #886800;
+}
+.card-2 a:hover{
+    color: #fff;
+}
+

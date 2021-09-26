@@ -42,28 +42,46 @@
                     return { title: e.innerText, className: l(e).data("class") };
                 },
             });
+
             var t = [
-                    { title: "Meeting with Mr. Shreyu", start: new Date(l.now() + 158e6), end: new Date(l.now() + 338e6), className: "bg-warning" },
-                    { title: "Interview - Backend Engineer", start: e, end: e, className: "bg-success" },
-                    { title: "Phone Screen - Frontend Engineer", start: new Date(l.now() + 168e6), className: "bg-info" },
-                    { title: "Buy Design Assets", start: new Date(l.now() + 338e6), end: new Date(l.now() + 4056e5), className: "bg-primary" },
+                    {
+                        img:"http://localhost:63342/Affordable%20Pest%20Control/assets/images/logo/Bitmap-profile.png",
+                        title: "Meeting with Mr. Shreyu",
+                        start: new Date(l.now() + 158e6),
+                        end: new Date(l.now() + 338e6),
+                        className: "bg-warning"
+                    },
                 ],
                 a = this;
             (a.$calendarObj = new FullCalendar.Calendar(a.$calendar[0], {
-                slotDuration: "00:15:00",
                 slotMinTime: "08:00:00",
-                slotMaxTime: "19:00:00",
+                slotMaxTime: "24:00:00",
                 themeSystem: "bootstrap",
                 bootstrapFontAwesome: !1,
-                buttonText: { today: "Today", month: "Month", week: "Week", day: "Day", list: "List", prev: "Prev", next: "Next" },
-                initialView: "dayGridMonth",
+                buttonText: { today: "Today", week: "Week", day: "Day", list: "List", prev: "Prev", next: "Next" },
+                initialView: "timeGridDay",
                 handleWindowResize: !0,
                 height: l(window).height() - 200,
-                headerToolbar: { left: "prev,next today", center: "title", right: "dayGridMonth,timeGridWeek,timeGridDay,listMonth" },
+                headerToolbar: { left: "prev,next today", center: "title", right: "timeGridWeek,timeGridDay" },
                 initialEvents: t,
                 editable: !0,
                 droppable: !0,
                 selectable: !0,
+                eventContent(arg) {
+                // IMAGE ACCESS  = arg.event.extendedProps.img
+
+                    let italicEl = document.createElement('div')
+                    italicEl.innerHTML = `
+                    <h5>Heavy Subfloor Dusting</h5>
+                    <span>Culbura Beach NSW 2540</span>
+                    <span>$250.00</span>
+                    <img src="${arg.event.extendedProps.img}"/>
+                    `
+                    let arrayOfDomNodes = [ italicEl ]
+                    return { domNodes: arrayOfDomNodes }
+
+                },
+
                 dateClick: function (e) {
                     a.onSelect(e);
                 },
@@ -76,6 +94,7 @@
                     a.onSelect({ date: new Date(), allDay: !0 });
                 }),
                 a.$formEvent.on("submit", function (e) {
+
                     e.preventDefault();
                     var t,
                         n = a.$formEvent[0];
@@ -84,11 +103,11 @@
                             ? (
                                 a.$selectedEvent.setProp("title", l("#event-title").val()),
 
-
-                                a.$selectedEvent.setProp("classNames", [l("#event-category1").val()]))
+                                a.$selectedEvent.setProp("classNames", [l("#event-category").val()]))
                                 : ((t = { title: l("#event-title").val(),
                                 start: a.$newEventData.date, allDay:
-                                a.$newEventData.allDay, className: l("#event-category1").val() }),
+                                a.$newEventData.allDay, className: l("#event-category").val() }),
+                            //    { img:"http://localhost:63342/Affordable%20Pest%20Control/assets/images/logo/Bitmap-profile.png", title: "Meeting with Mr. Shreyu", start: new Date(l.now() + 158e6), end: new Date(l.now() + 338e6), className: "bg-warning" },
                                 a.$calendarObj.addEvent(t)),
 
 
