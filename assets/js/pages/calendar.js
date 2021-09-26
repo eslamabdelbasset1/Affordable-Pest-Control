@@ -52,9 +52,7 @@
                         className: "bg-success"
                     },
                     { img:"http://localhost:63342/Affordable%20Pest%20Control/assets/images/logo/Bitmap-profile.png",
-                        title: "Interview - Backend Engineer", start: e, end: e, className: "bg-success" },
-                    { img:"http://localhost:63342/Affordable%20Pest%20Control/assets/images/logo/Bitmap-profile.png",
-                        title: "Phone Screen - Frontend Engineer", start: new Date(l.now() + 168e6), className: "bg-info" },
+                        title: "Interview - Backend Engineer", start: e, end: e, className: "bg-warning" },
                     { img:"http://localhost:63342/Affordable%20Pest%20Control/assets/images/logo/Bitmap-profile.png",
                         title: "Buy Design Assets", start: new Date(l.now() + 338e6), end: new Date(l.now() + 4056e5), className: "bg-primary" },
 
@@ -79,11 +77,18 @@
 
                     let italicEl = document.createElement('div')
                     italicEl.innerHTML = `
-                    <h3>Heavy Subfloor Dusting</h3>
-                    <p>Culbura Beach NSW 2540</p>
-                    <p>$250.00</p>
-                    <img src="${arg.event.extendedProps.img}"/>
-                    <span><b>John Doe</b></span>
+
+                        <div class="card">
+                          <div class="card-header">Heavy Subfloor Dusting</div>
+                          <div class="card-body">
+                            <h3 class="card-title">Culbura Beach NSW 2540</h3>
+                            <p class="card-text">$250.00</p>
+                          </div>
+                          <div class="card-footer">
+                           <img class="text-start" src="${arg.event.extendedProps.img}"/>
+                           <span><b>Shane Konzen</b></span>
+                            </div>
+                        </div>
                     `
                     italicEl.classList.add("eventStyle");
                     let arrayOfDomNodes = [ italicEl ]
