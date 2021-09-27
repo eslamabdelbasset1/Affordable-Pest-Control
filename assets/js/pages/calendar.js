@@ -52,9 +52,13 @@
                         className: "bg-success"
                     },
                     { img:"http://localhost:63342/Affordable%20Pest%20Control/assets/images/logo/Bitmap-profile.png",
-                        title: "Interview - Backend Engineer", start: e, end: e, className: "bg-warning" },
-                    { img:"http://localhost:63342/Affordable%20Pest%20Control/assets/images/logo/Bitmap-profile.png",
                         title: "Buy Design Assets", start: new Date(l.now() + 338e6), end: new Date(l.now() + 4056e5), className: "bg-primary" },
+
+                    { img:"http://localhost:63342/Affordable%20Pest%20Control/assets/images/logo/Bitmap-profile.png",
+                        title: "Interview - FrontEnd Engineer",start: new Date(l.now() + 450e6), end: new Date(l.now() + 3056e5), className: "bg-warning" },
+
+                    { img:"http://localhost:63342/Affordable%20Pest%20Control/assets/images/logo/Bitmap-profile.png",
+                        title: "Interview - Backend Engineer", start: e, end: e, className: "bg-warning" },
 
                 ],
                 a = this;
