@@ -1158,6 +1158,11 @@ color: #eaeaea;
 
 @media screen and (max-width: 992px)
 {
+    .fc-media-screen .fc-timegrid-event-harness
+    {
+        height: 27vh !important;
+        border-radius: 12px !important;
+    }
     .fc-media-screen .fc-timegrid-event-harness .card-footer {
         position: absolute;
         top: 100%;

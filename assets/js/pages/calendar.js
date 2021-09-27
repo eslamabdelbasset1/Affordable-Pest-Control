@@ -88,7 +88,7 @@
                             <h3 class="card-title">Culbura Beach NSW 2540</h3>
                             <p class="card-text">$250.00</p>
                           </div>
-                          <div class="card-footer">
+                          <div class="card-footer d-flex justify-content-between">
                            <img class="text-start" src="${arg.event.extendedProps.img}"/>
                            <span><b>Shane Konzen</b></span>
                             </div>
