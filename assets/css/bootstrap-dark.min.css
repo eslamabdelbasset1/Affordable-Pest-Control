@@ -11865,10 +11865,10 @@ body[data-layout="detached"][data-leftbar-compact-mode="condensed"] .side-nav .s
     display: none;
 }
 body[data-leftbar-theme="light"] .leftside-menu {
-    background: #fff;
+    background: #303030;
 }
 body[data-leftbar-theme="light"] .leftside-menu .logo {
-    background: #fff !important;
+    background: #303030 !important;
 }
 body[data-leftbar-theme="light"] .side-nav .side-nav-link {
     color: #6c757d;
