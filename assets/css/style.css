@@ -163,7 +163,7 @@ body{
 }
 /*------------------ Active ------------- ----------*/
 .activeColor{color: #69A200 !important;}
-.activeColor:hover{color: #939DA7 !important;}
+/*.activeColor:hover{color: #939DA7 !important;}*/
 .activeBackground{
     background: #69A200 !important;
     border: 1px solid #69A200 !important;
@@ -314,13 +314,13 @@ button,
     float: left;
     font-weight: 500;
 }
-.wrapper .content-page .container-fluid .justify-content-between a,
-.wrapper .content-page .container-fluid .justify-content-between a.month,
-    .wrapper .content-page .container-fluid .justify-content-between a i.fas
+.wrapper .content-page .charts .justify-content-between a,
+.wrapper .content-page .charts .justify-content-between a.month,
+    .wrapper .content-page .charts .justify-content-between a i.fas
 {
     font-size: 6px;
 }
-.wrapper .content-page .container-fluid .justify-content-between a.btn-light
+.wrapper .content-page .charts .justify-content-between a.btn-light
 {
     background: #F7F7F7 !important;
 }
@@ -346,7 +346,7 @@ color: #292929;
 .side-nav .side-nav-second-level li a:hover{
 color: #69A200;
 }
-.wrapper .content-page .container-fluid .widget-flat .float-end svg
+.wrapper .content-page .charts .widget-flat .float-end svg
 {
 margin-top: 13px;
 }
@@ -394,7 +394,6 @@ margin-top: 13px;
 {
     font-weight: 500;
     font-size: 16px !important;
-    line-height: 19px;
     color: #292929;
 }
 /*----------------------------------------------------*/
@@ -635,7 +634,7 @@ margin-top: 13px;
 
  .modal-body  span
 {
-    font-size: 12px;
+    font-size: 14px;
     margin-left: 5px;
 }
  .modal-body .colors{
@@ -923,8 +922,8 @@ table.dataTable tbody td {
 /*-------------------------Clients------------*/
 #addClient h4{
     font-weight: 500;
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 19px;
 }
 #addClient .modal-body input[type=text],
 #addClient .modal-body input[type=email],
@@ -941,6 +940,7 @@ table.dataTable tbody td {
 #modalStatus .modal-body input[type=text]
 {
     width: 100%;
+    height: 37px;
     background: #FFFFFF;
     border: 1px solid #E5E5E5;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08177);
@@ -953,6 +953,9 @@ table.dataTable tbody td {
     line-height: 19px;
     font-weight: 500;
     color: #2E2E2E;
+}
+.modal-body{
+
 }
 .qoutesImg
 {
@@ -979,14 +982,25 @@ table.dataTable tbody td {
     color: #919BA4;
 }
 .modal-title{
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
 }
-
-
-
+/*.modal-header{*/
+/*    height: 35px;*/
+/*}*/
+/*.modal-footer{*/
+/*    height: 35px;*/
+/*}*/
+#addStaff #myAwesomeDropzone
+{
+    width: 420px;
+    height: 150px;
+}
+.modal-right button.btn-close{
+    color: #69A200 !important;
+}
 /*----------------------- Login ----------------------------*/
 #login{
     background: #69A200;
@@ -1181,4 +1195,19 @@ h4
     font-weight: 500 !important;
 }
 
-
+#staff_location .dataTables_wrapper div.dataTables_filter,
+#staff_location .dataTables_wrapper div.dataTables_length label
+{
+    display: none;
+}
+#staff_location table.dataTable > thead > tr > th:hover,
+#staff_location table.dataTable > thead > tr > th:active
+{
+    background: #69A200;
+    color: #fff;
+    cursor: pointer;
+}
+table.dataTable > tbody > tr.child ul.dtr-details > li
+{
+    margin-right: 10%;
+}
