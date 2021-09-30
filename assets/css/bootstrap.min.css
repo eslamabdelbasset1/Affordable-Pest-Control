@@ -12458,7 +12458,7 @@ body[data-layout=topnav] .container-fluid, body[data-layout=topnav] .container-l
     border-color: #f1f3fa!important;
 }
 input.form-control[type=color], input.form-control[type=range] {
-    min-height: 39px;
+    min-height: 36px;
 }
 .custom-select.is-invalid:focus, .custom-select.is-valid:focus, .custom-select:invalid:focus, .custom-select:valid:focus, .form-control.is-invalid:focus, .form-control.is-valid:focus, .form-control:invalid:focus, .form-control:valid:focus {
     -webkit-box-shadow: none!important;

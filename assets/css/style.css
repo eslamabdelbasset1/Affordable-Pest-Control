@@ -392,8 +392,9 @@ margin-top: 13px;
 
 #addStaff .modal-body h4
 {
-    font-weight: 500;
-    font-size: 16px !important;
+    font-weight: 500 !important;
+    font-size: 16px;
+    line-height: 19px;
     color: #292929;
 }
 /*----------------------------------------------------*/
@@ -985,7 +986,7 @@ table.dataTable tbody td {
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
-    line-height: 26px;
+    line-height: 10px;
 }
 /*.modal-header{*/
 /*    height: 35px;*/
@@ -995,8 +996,7 @@ table.dataTable tbody td {
 /*}*/
 #addStaff #myAwesomeDropzone
 {
-    width: 420px;
-    height: 150px;
+    height: 145px;
 }
 .modal-right button.btn-close{
     color: #69A200 !important;
