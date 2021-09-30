@@ -1189,6 +1189,39 @@ color: #eaeaea;
     line-height: 19px;
     border-radius: 7px;
 }
+.fc .fc-toolbar-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #48515B;
+}
+.fc-toolbar .btn {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.875rem;
+    width: 99px;
+    border: none !important;
+    color: #48515B;
+    border-radius: 7px;
+}
+#calendar > div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr button.fc-prev-button.btn.btn-primary,
+#calendar > div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr div > button.fc-next-button.btn.btn-primary
+{
+    font-size: 22px;
+    padding: 13px 25px 7px 14px;
+    width: 20px;
+    margin: auto;
+    color: #939DA7;
+}
+#calendar > div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr button.fc-prev-button.btn.btn-primary:hover,
+#calendar > div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr div > button.fc-next-button.btn.btn-primary:hover,
+.btn-check:focus+.btn-primary, .btn-primary:focus,
+.btn-group>.btn.active
+{
+    background: #69A200;
+    color: #FFFFFF;
+}
+
 h4
 {
     font-style: normal;
