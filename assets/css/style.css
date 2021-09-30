@@ -950,6 +950,7 @@ table.dataTable tbody td {
 }
 #addClient label
 {
+    font-style: normal;
     font-size: 16px;
     line-height: 19px;
     font-weight: 500;
@@ -984,22 +985,26 @@ table.dataTable tbody td {
 }
 .modal-title{
     font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
+    font-weight: 500 !important;
+    font-size: 22px !important;
     line-height: 10px;
 }
 /*.modal-header{*/
 /*    height: 35px;*/
 /*}*/
-/*.modal-footer{*/
-/*    height: 35px;*/
-/*}*/
+.modal-footer{
+    height: 50px;
+}
 #addStaff #myAwesomeDropzone
 {
     height: 145px;
 }
 .modal-right button.btn-close{
     color: #69A200 !important;
+}
+#addClient .modal-body  form select
+{
+    height: 34px;
 }
 /*----------------------- Login ----------------------------*/
 #login{

@@ -611,107 +611,107 @@
 
                 <!-- Right modal -->
                 <div id="addClient" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-right modal-dialog-scrollable" role="document">
+                    <div class="modal-dialog modal-right" role="document">
                         <div class="modal-content p-3">
-                            <div class="modal-header">
-                                <h4 class="modal-title activeColor" id="standard-modalLabel">Add New Business Client</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true"></button>
-                            </div>
-                            <div class="modal-body">
-                                <form action="allClients.html" method="post" accept-charset="utf-8">
-                                    <div class="row">
-                                        <h4 class="text-dark">Business Information</h4>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input type="text" name="first_name" id="first_name"
-                                                       class="form-control" placeholder="Business name*" required="">
+                            <form action="allClients.html" method="post" accept-charset="utf-8">
+                                <div class="modal-header">
+                                    <h4 class="modal-title activeColor" id="standard-modalLabel">Add New Business Client</h4>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true"></button>
+                                </div>
+                                <div class="modal-body" style="height: 620px !important">
+                                        <div class="row">
+                                            <h4 class="text-dark my-2">Business Information</h4>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="first_name" id="first_name"
+                                                           class="form-control" placeholder="Business name*" required="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="number" name="mobile_no" id="mobile_no" placeholder="Phone number*"
+                                                           class="form-control" required="">
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input type="number" name="mobile_no" id="mobile_no" placeholder="Phone number*"
-                                                       class="form-control" required="">
+                                        <div class="row my-2">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <select class="form-select" name="frequency">
+                                                        <option selected value="">Select Job Frequency</option>
+                                                        <option value="1">sssssssssss</option>
+                                                        <option value="2">ssssssssssssss</option>
+                                                        <option value="3">Masssssssssrch</option>
+                                                        <option value="4">Apsssssssssssril</option>
+                                                        <option value="5">Masssssssssssy</option>
+                                                        <option value="6">ssssssssss</option>
+                                                    </select>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row my-2">
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <select class="form-select" name="frequency">
-                                                    <option selected value="">Select Job Frequency</option>
-                                                    <option value="1">sssssssssss</option>
-                                                    <option value="2">ssssssssssssss</option>
-                                                    <option value="3">Masssssssssrch</option>
-                                                    <option value="4">Apsssssssssssril</option>
-                                                    <option value="5">Masssssssssssy</option>
-                                                    <option value="6">ssssssssss</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                    <div class="row my-1">
-                                        <h4 class="text-dark">Business Address</h4>
-                                        <div class="col-md-12">
-                                            <div class="form-group my-1">
-                                                <input type="text" name="address" id="address"  placeholder="Address"
-                                                       class="form-control">
+                                        <div class="row my-1">
+                                            <h4 class="text-dark">Business Address</h4>
+                                            <div class="col-md-12">
+                                                <div class="form-group my-1">
+                                                    <input type="text" name="address" id="address"  placeholder="Address"
+                                                           class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group my-1">
+                                                    <input type="text" name="street1" id="street1"  placeholder="Street 1"
+                                                           class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group my-1">
+                                                    <input type="text" name="street2" id="street2"  placeholder="Street 2"
+                                                           class="form-control form-control-sm">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group my-1">
+                                                    <input type="text" name="sburbs" id="sburbs"  placeholder="City"
+                                                           class="form-control form-control-sm">
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group my-1">
-                                                <input type="text" name="street1" id="street1"  placeholder="Street 1"
-                                                       class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group my-1">
-                                                <input type="text" name="street2" id="street2"  placeholder="Street 2"
-                                                       class="form-control form-control-sm">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group my-1">
-                                                <input type="text" name="sburbs" id="sburbs"  placeholder="City"
-                                                       class="form-control form-control-sm">
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                    <div class="row my-2">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input type="text" name="state" id="state"
-                                                       class="form-control" placeholder="State">
+                                        <div class="row my-2">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="state" id="state"
+                                                           class="form-control" placeholder="State">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="postalCode" id="postalCode" placeholder="Postal Code"
+                                                           class="form-control">
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input type="text" name="postalCode" id="postalCode" placeholder="Postal Code"
-                                                       class="form-control">
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                    <div class="row my-1">
+                                        <div class="row my-1">
 
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <select class="form-select" name="country">
-                                                    <option selected value="">Select a Country</option>
-                                                    <option value="1">Egypt</option>
-                                                    <option value="1">US</option>
-                                                    <option value="1">Pairs</option>
-                                                </select>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <select class="form-select" name="country">
+                                                        <option selected value="">Select a Country</option>
+                                                        <option value="1">Egypt</option>
+                                                        <option value="1">US</option>
+                                                        <option value="1">Pairs</option>
+                                                    </select>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="modal-footer d-flex justify-content-between px-3">
-                                <button type="button" class="btn btn-ligh text-darkt border" data-bs-dismiss="modal">Close</button>
-                                <button class="btn btn-default activeBackground text-white" type="submit">Add Business Client</button>
-                            </div>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-between px-3">
+                                    <button type="button" class="btn btn-ligh text-darkt border" data-bs-dismiss="modal">Close</button>
+                                    <button class="btn btn-default activeBackground text-white" type="submit">Add Business Client</button>
+                                </div>
+                            </form>
                         </div>
                         <!-- /.modal-content -->
                     </div>
