@@ -11110,17 +11110,26 @@ body[data-leftbar-theme=dark] .side-nav .menuitem-active>a {
 body[data-leftbar-theme=dark] .side-nav .side-nav-title {
     color: #8391a2;
 }
-body[data-leftbar-theme=dark] .side-nav .side-nav-forth-level li a, body[data-leftbar-theme=dark] .side-nav .side-nav-second-level li a, body[data-leftbar-theme=dark] .side-nav .side-nav-third-level li a {
+body[data-leftbar-theme=dark] .side-nav .side-nav-forth-level li a,
+body[data-leftbar-theme=dark] .side-nav .side-nav-second-level li a,
+body[data-leftbar-theme=dark] .side-nav .side-nav-third-level li a {
     color: #939DA7;
+    background: #303030;
     text-decoration: none;
+}
+body[data-leftbar-theme=dark] .side-nav .menuitem-active>a:hover{
+    color: #FFFFFF;
 }
 body[data-leftbar-theme=dark] .side-nav .side-nav-forth-level li a:focus, body[data-leftbar-theme=dark]
 .side-nav .side-nav-forth-level li a:hover, body[data-leftbar-theme=dark] .side-nav .side-nav-second-level li a:focus,
-body[data-leftbar-theme=dark] .side-nav .side-nav-second-level li a:hover, body[data-leftbar-theme=dark] .side-nav .side-nav-third-level li a:focus,
+body[data-leftbar-theme=dark] .side-nav .side-nav-second-level li a:hover, body[data-leftbar-theme=dark]
+.side-nav .side-nav-third-level li a:focus,
 body[data-leftbar-theme=dark] .side-nav .side-nav-third-level li a:hover {
-    color: #939DA7;
+    color: #FFFFFF;
+    background: #69A200;
 }
-body[data-leftbar-theme=dark] .side-nav .side-nav-forth-level li.active>a, body[data-leftbar-theme=dark] .side-nav .side-nav-second-level li.active>a, body[data-leftbar-theme=dark] .side-nav .side-nav-third-level li.active>a {
+body[data-leftbar-theme=dark] .side-nav .side-nav-forth-level li.active>a, body[data-leftbar-theme=dark]
+.side-nav .side-nav-second-level li.active>a, body[data-leftbar-theme=dark] .side-nav .side-nav-third-level li.active>a {
     color: #868B8F;
 }
 body[data-leftbar-theme=dark][data-leftbar-compact-mode=condensed] .side-nav .side-nav-item .side-nav-link:active,
@@ -11129,14 +11138,14 @@ body[data-leftbar-theme=dark][data-leftbar-compact-mode=condensed] .side-nav .si
     color: #69A200;
 }
 body[data-leftbar-theme=dark][data-leftbar-compact-mode=condensed] .side-nav .side-nav-item:hover .side-nav-link {
-    background: #E2F1D6;
+    background: #303030;
     border-radius: 14px;
-    color: #939DA7 !important;
+    color: #fff !important;
     -webkit-transition: none;
     transition: none;
 }
 body[data-leftbar-theme=dark][data-leftbar-compact-mode=condensed] .side-nav .side-nav-item:hover>ul {
-    background: #E2F1D6;
+    background: #303030;
     -webkit-box-shadow: 0 0 35px 0 rgba(154, 161, 171, .15);
     box-shadow: 0 0 35px 0 rgba(154, 161, 171, .15);
 }
