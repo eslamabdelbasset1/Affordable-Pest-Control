@@ -11089,7 +11089,7 @@ body[data-leftbar-theme=dark] .leftside-menu .logo
     background: #303030 !important;
 }
 body[data-leftbar-theme=dark] .side-nav .side-nav-link,
-#leftside-menu-container > div.simplebar-wrapper > div.simplebar-mask > div > div > div > ul > li:nth-child(2) > a > svg
+#leftside-menu-container > div.simplebar-wrapper .simplebar-mask ul li a svg
 {
     color:#939DA7;
 }
@@ -11098,7 +11098,7 @@ body[data-leftbar-theme=dark] .side-nav .side-nav-link:focus,
 body[data-leftbar-theme=dark] .side-nav .side-nav-link:hover
 {
     color: #fff;
-    background: #69A20019;
+    background: #69A200;
     border-radius: 7px;
 }
 body[data-leftbar-theme=dark]:hover{
@@ -11452,10 +11452,14 @@ body[data-layout-mode=boxed][data-layout=topnav] .navbar-custom {
 .end-bar .rightbar-title {
     background-color: #69A200;
     padding: 27px 25px;
-    color: #292929;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
 }
 .end-bar .end-bar-toggle {
-    background-color: #444e5a;
+    background-color: #69A200;
     height: 24px;
     width: 24px;
     line-height: 22px;
