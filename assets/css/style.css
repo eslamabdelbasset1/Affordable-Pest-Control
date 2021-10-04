@@ -394,7 +394,7 @@ margin-top: 13px;
 {
     font-weight: 500 !important;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 10px;
     color: #292929;
 }
 /*----------------------------------------------------*/
@@ -489,9 +489,20 @@ margin-top: 13px;
 .inbox-widget img.img1{border: 2px solid #81B214; background: transparent;}
 .inbox-widget img.img2{border: 2px solid #B9B9B9; background: transparent;}
 .inbox-widget img.img3{border: 2px solid #CC9F00; background: transparent;}
-.inbox-widget .details{color: #B9B9B9;background: #fff; border: solid}
+.inbox-widget img.img4{border: 2px solid #FF2929; background: transparent;}
+.inbox-widget .details{color: #B9B9B9; background: #fff; border: solid}
 .inbox-widget .to-do{color: #A5A5A5;background: #ECECEC;}
 .inbox-widget .on-way{color: #CC9F00;background: #FFF3BE;}
+.inbox-widget .cancel{color: #FFFFFF;background: #FF2929;}
+
+.inbox-widget .icon{
+    width: 27px;
+    height: 27px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08177);
+    border-radius: 7px;
+}
 
 .inbox-widget p.inbox-item-date svg{
     position: absolute;
@@ -501,22 +512,23 @@ margin-top: 13px;
 
 .inbox-widget .inbox-item svg.line-icon {
     position: absolute;
-    top: 16%;
-    left: 28px;
+    top: 19%;
+    left: 35px;
 }
 .inbox-widget .inbox-item .km{
     position: absolute;
     top: 51%;
-    left: 5%;
+    left: 8%;
     color: #69A200;
     font-size: 11px;
 }
 
+
 .inbox-widget .inbox-item i.fa-map-marker-alt{
     position: absolute;
-    top: 36%;
-    left: 4%;
-    padding: 12px;
+    top: 35%;
+    left: 5%;
+    padding: 13px;
     color: #69A200;
     border: 1px solid #d9d9d9;
     background-color: #d9d9d9;
@@ -526,8 +538,10 @@ margin-top: 13px;
 
 .inbox-widget .item-border
 {
-    border-radius: 5px;
-    border: 2px solid #69A200;
+    background: #FFFFFF;
+    border: 1.2px solid #69A200;
+    box-shadow: 0 1px 2px rgba(36, 52, 0, 0.22757);
+    border-radius: 14px;
 }
 .inbox-widget .inbox-item .inbox-item-author{
     font-weight: 500;
@@ -554,6 +568,13 @@ margin-top: 13px;
     border-radius: 33% !important;
     margin: 0 3px!important;
     border: none;
+}
+
+#addStaff .modal-footer button.addStaff
+{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08177);
+    border-radius: 7px;
+    padding: 12px 20px 6px 20px;
 }
 /*--------------- End Staff Location ------------------------*/
 
@@ -987,13 +1008,13 @@ table.dataTable tbody td {
     font-style: normal;
     font-weight: 500 !important;
     font-size: 22px !important;
-    line-height: 10px;
+    line-height: 0;
 }
 /*.modal-header{*/
 /*    height: 35px;*/
 /*}*/
 .modal-footer{
-    height: 50px;
+    height: 35px;
 }
 #addStaff #myAwesomeDropzone
 {

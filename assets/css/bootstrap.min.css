@@ -13111,11 +13111,12 @@ input[data-switch=dark]:checked+label {
 .inbox-widget .inbox-item .inbox-item-img {
     display: block;
     float: left;
-    margin-right: 15px;
+    margin-right: 35px;
     width: 40px;
 }
 .inbox-widget .inbox-item .inbox-item-img img {
-    width: 40px;
+    width: 66px;
+    height: 66px;
 }
 .inbox-widget .inbox-item .inbox-item-author {
     color: #343a40;
